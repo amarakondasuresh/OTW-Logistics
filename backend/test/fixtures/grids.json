@@ -1,0 +1,473 @@
+{
+ "daily-settlement-two-weeks": [
+  {
+   "name": "All Riders Daily Settlement",
+   "rowOffset": 0,
+   "grid": [
+    [
+     "Rider ID",
+     "Rider Name",
+     "Hub",
+     "Order Date",
+     "Total LM Orders",
+     "Total Primary Orders",
+     "Total Club Orders",
+     "Rate Applicable",
+     "Payout Amount"
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46317.0,
+     24,
+     20,
+     4,
+     "₹18.5 Pri / ₹12.25 Club",
+     419
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46318.0,
+     23,
+     22,
+     1,
+     "₹18.5 Pri / ₹12.25 Club",
+     419.25
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46319.0,
+     15,
+     12,
+     3,
+     "₹18.5 Pri / ₹12.25 Club",
+     258.75
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46320.0,
+     22,
+     21,
+     1,
+     "₹18.5 Pri / ₹12.25 Club",
+     400.75
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46321.0,
+     45,
+     39,
+     6,
+     "₹18.5 Pri / ₹12.25 Club",
+     795
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46322.0,
+     13,
+     11,
+     2,
+     "₹18.5 Pri / ₹12.25 Club",
+     228
+    ],
+    [
+     "OTW-101",
+     "Appari Ravi Kumar",
+     "Main",
+     46323.0,
+     36,
+     23,
+     13,
+     "₹18.5 Pri / ₹12.25 Club",
+     584.75
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46317.0,
+     19,
+     12,
+     7,
+     "₹18.5 Pri / ₹12.25 Club",
+     307.75
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46318.0,
+     25,
+     12,
+     13,
+     "₹18.5 Pri / ₹12.25 Club",
+     381.25
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46319.0,
+     14,
+     11,
+     3,
+     "₹18.5 Pri / ₹12.25 Club",
+     240.25
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46320.0,
+     47,
+     40,
+     7,
+     "₹18.5 Pri / ₹12.25 Club",
+     825.75
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46321.0,
+     31,
+     30,
+     1,
+     "₹18.5 Pri / ₹12.25 Club",
+     567.25
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46322.0,
+     40,
+     28,
+     12,
+     "₹18.5 Pri / ₹12.25 Club",
+     665
+    ],
+    [
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     "Main",
+     46323.0,
+     18,
+     11,
+     7,
+     "₹18.5 Pri / ₹12.25 Club",
+     289.25
+    ],
+    [
+     "OTW-107",
+     "Mohammed Fazzaley Khaza",
+     "Main",
+     46317.0,
+     15,
+     11,
+     4,
+     "₹18.5 Pri / ₹12.25 Club",
+     252.5
+    ],
+    [
+     "OTW-107",
+     "Mohammed Fazzaley Khaza",
+     "Main",
+     46318.0,
+     32,
+     19,
+     13,
+     "₹18.5 Pri / ₹12.25 Club",
+     510.75
+    ],
+    [
+     "OTW-107",
+     "Mohammed Fazzaley Khaza",
+     "Main",
+     46319.0,
+     17,
+     14,
+     3,
+     "₹18.5 Pri / ₹12.25 Club",
+     295.75
+    ],
+    [
+     "OTW-107",
+     "Mohammed Fazzaley Khaza",
+     "Main",
+     46321.0,
+     37,
+     28,
+     9,
+     "₹18.5 Pri / ₹12.25 Club",
+     628.25
+    ],
+    [
+     "OTW-107",
+     "Mohammed Fazzaley Khaza",
+     "Main",
+     46322.0,
+     32,
+     27,
+     5,
+     "₹18.5 Pri / ₹12.25 Club",
+     560.75
+    ],
+    [
+     "OTW-107",
+     "Mohammed Fazzaley Khaza",
+     "Main",
+     46323.0,
+     19,
+     13,
+     6,
+     "₹18.5 Pri / ₹12.25 Club",
+     314
+    ]
+   ]
+  }
+ ],
+ "unreadable": [
+  {
+   "name": "Notes",
+   "rowOffset": 0,
+   "grid": [
+    [
+     "Hello",
+     "World"
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ],
+ "weekly-19oct-25oct": [
+  {
+   "name": "Weekly Payments",
+   "rowOffset": 0,
+   "grid": [
+    [
+     "On The Way Logistics - Rider Payments",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "WEEK",
+     "RIDER ID",
+     "RIDER",
+     "DAYS",
+     "LM",
+     "PRIMARY",
+     "CLUB",
+     "WEEKLY AMOUNT (₹)",
+     "SDD Orders"
+    ],
+    [
+     "19/10/2026 - 25/10/2026",
+     "OTW-101",
+     "Appari Ravi Kumar",
+     6,
+     214,
+     150,
+     64,
+     4520.5,
+     3
+    ],
+    [
+     "19/10/2026 - 25/10/2026",
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     5,
+     180,
+     120,
+     60,
+     3800,
+     2
+    ],
+    [
+     "19/10/2026 - 25/10/2026",
+     "OTW-103",
+     "Pollareddy Narayanareddy",
+     7,
+     301,
+     200,
+     101,
+     12345.75,
+     5
+    ],
+    [
+     "19/10/2026 - 25/10/2026",
+     "OTW-104",
+     "Karedla Vijaya Seshagiri",
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "19/10/2026 - 25/10/2026",
+     "OTW-105",
+     "Peram Krishna Rao",
+     4,
+     96,
+     60,
+     36,
+     "",
+     1
+    ],
+    [
+     "",
+     "",
+     "TOTAL",
+     791,
+     "",
+     "",
+     "",
+     20666.25
+    ]
+   ]
+  }
+ ],
+ "weekly-26oct-01nov": [
+  {
+   "name": "Sheet1",
+   "rowOffset": 0,
+   "grid": [
+    [
+     "Week",
+     "Rider ID",
+     "Rider Name",
+     "No. of Days",
+     "Total LM Orders",
+     "Total Primary Orders",
+     "Total Club Orders",
+     "Payout Amount",
+     "Weekly Amount",
+     "SDD Orders"
+    ],
+    [
+     46321.0,
+     "OTW-101",
+     "Appari Ravi Kumar",
+     7,
+     260,
+     180,
+     80,
+     "(per-day ignored)",
+     "₹5,210.25",
+     4
+    ],
+    [
+     "",
+     "OTW-102",
+     "Shaik Ahmad Sharief",
+     6,
+     201,
+     130,
+     71,
+     "(per-day ignored)",
+     "₹4,100",
+     3
+    ],
+    [
+     "",
+     "OTW-103",
+     "Pollareddy Narayanareddy",
+     7,
+     322,
+     222,
+     100,
+     "(per-day ignored)",
+     13010,
+     6
+    ],
+    [
+     "",
+     "OTW-106",
+     "Nagababu Annemreddy",
+     3,
+     77,
+     40,
+     37,
+     "(per-day ignored)",
+     1999.99,
+     2
+    ]
+   ]
+  }
+ ],
+ "wide-summary": [
+  {
+   "name": "Weekly Summary",
+   "rowOffset": 0,
+   "grid": [
+    [
+     "S.No",
+     "NAME",
+     46321.0,
+     46322.0,
+     46323.0,
+     46324.0,
+     46325.0,
+     46326.0,
+     46327.0,
+     "Payment Completed (₹)"
+    ],
+    [
+     1,
+     "Appari Ravi Kumar",
+     "30/20",
+     "25/15",
+     "",
+     "20/10",
+     "28/18",
+     "35/25",
+     "10/5",
+     4890.5
+    ],
+    [
+     2,
+     "Shaik Ahmad Sharief",
+     "12/12",
+     "",
+     "",
+     "",
+     "",
+     "8/4",
+     "6/6",
+     1350
+    ]
+   ]
+  }
+ ]
+}

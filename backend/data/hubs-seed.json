@@ -1,0 +1,2542 @@
+[
+  {
+    "id": "XH-001",
+    "name": "AMP_BlackBridge",
+    "code": "AMP_BlackBridge",
+    "state": "Andhra Pradesh",
+    "district": "Amalapuram",
+    "city": "Amalapuram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Vipparthi Prema Kiran",
+    "phone": "9014377900",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Vipparthi Prema Kiran",
+    "contacts": [
+      {
+        "name": "Vipparthi Prema Kiran",
+        "phone": "9014377900"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-002",
+    "name": "AKP_Anakapalle_TH",
+    "code": "AKP_Anakapalle_TH",
+    "state": "Andhra Pradesh",
+    "district": "Anakapalli",
+    "city": "Anakapalli",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Surisetti Syam Kiran",
+    "phone": "7799068212",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Surisetti Syam Kiran",
+    "contacts": [
+      {
+        "name": "Surisetti Syam Kiran",
+        "phone": "7799068212"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-003",
+    "name": "CMDP_Araku",
+    "code": "CMDP_Araku",
+    "state": "Andhra Pradesh",
+    "district": "Anantagiri",
+    "city": "Anantagiri",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "MANDI SYAM",
+    "phone": "9493041068",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "MANDI SYAM",
+    "contacts": [
+      {
+        "name": "MANDI SYAM",
+        "phone": "9493041068"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-004",
+    "name": "ATP_Anantapur",
+    "code": "ATP_Anantapur",
+    "state": "Andhra Pradesh",
+    "district": "Anantpur",
+    "city": "Anantpur",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Boya Sreekanth",
+    "phone": "8328407585",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Boya Sreekanth",
+    "contacts": [
+      {
+        "name": "Boya Sreekanth",
+        "phone": "8328407585"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-005",
+    "name": "ANV_Annavaram_TH",
+    "code": "ANV_Annavaram_TH",
+    "state": "Andhra Pradesh",
+    "district": "Annavaram",
+    "city": "Annavaram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Konkipudi Daveedhukumar",
+    "phone": "7989000782",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Konkipudi Daveedhukumar",
+    "contacts": [
+      {
+        "name": "Konkipudi Daveedhukumar",
+        "phone": "7989000782"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-006",
+    "name": "BVU_Balipara",
+    "code": "BVU_Balipara",
+    "state": "Assam",
+    "district": "Balipara",
+    "city": "Balipara",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Anshuman Tamuli",
+    "phone": "8638459779",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_NE",
+    "region": "East",
+    "hiName": "Anshuman Tamuli",
+    "contacts": [
+      {
+        "name": "Anshuman Tamuli",
+        "phone": "8638459779"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-007",
+    "name": "BVR_2Town ByPass Road",
+    "code": "BVR_2Town ByPass Road",
+    "state": "Andhra Pradesh",
+    "district": "Bhimavaram",
+    "city": "Bhimavaram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Chekka Sai Venkata Phanendra Kumar",
+    "phone": "9542339668",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Chekka Sai Venkata Phanendra Kumar",
+    "contacts": [
+      {
+        "name": "Chekka Sai Venkata Phanendra Kumar",
+        "phone": "9542339668"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-008",
+    "name": "BVR_Bhimavaram_E",
+    "code": "BVR_Bhimavaram_E",
+    "state": "Andhra Pradesh",
+    "district": "Bhimavaram",
+    "city": "Bhimavaram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gudimetla Teja Naga Durga Lingam",
+    "phone": "8247325471",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gudimetla Teja Naga Durga Lingam",
+    "contacts": [
+      {
+        "name": "Gudimetla Teja Naga Durga Lingam",
+        "phone": "8247325471"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-009",
+    "name": "BVR_West Godavari",
+    "code": "BVR_West Godavari",
+    "state": "Andhra Pradesh",
+    "district": "Bhimavaram",
+    "city": "Bhimavaram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gudala Purushottam",
+    "phone": "9676591241",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gudala Purushottam",
+    "contacts": [
+      {
+        "name": "Gudala Purushottam",
+        "phone": "9676591241"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-010",
+    "name": "VBL_Bobbili_TH",
+    "code": "VBL_Bobbili_TH",
+    "state": "Andhra Pradesh",
+    "district": "Bobbili",
+    "city": "Bobbili",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Palakonda Aravindh",
+    "phone": "6300480204",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Palakonda Aravindh",
+    "contacts": [
+      {
+        "name": "Palakonda Aravindh",
+        "phone": "6300480204"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-011",
+    "name": "BNGN_Bongaigaon_E",
+    "code": "BNGN_Bongaigaon_E",
+    "state": "Assam",
+    "district": "Bongaigaon",
+    "city": "Bongaigaon",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Rajesh Gowala",
+    "phone": "6003981683",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_NE",
+    "region": "East",
+    "hiName": "Rajesh Gowala",
+    "contacts": [
+      {
+        "name": "Rajesh Gowala",
+        "phone": "6003981683"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-012",
+    "name": "CPP_Cheepurupalli",
+    "code": "CPP_Cheepurupalli",
+    "state": "Andhra Pradesh",
+    "district": "Cheepurupalli",
+    "city": "Cheepurupalli",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Ella Madhu",
+    "phone": "9010729503",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Ella Madhu",
+    "contacts": [
+      {
+        "name": "Ella Madhu",
+        "phone": "9010729503"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-013",
+    "name": "STPT_Chintalapudi",
+    "code": "STPT_Chintalapudi",
+    "state": "Andhra Pradesh",
+    "district": "Chintalapudi",
+    "city": "Chintalapudi",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Satunuri Suresh",
+    "phone": "6300069432",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Satunuri Suresh",
+    "contacts": [
+      {
+        "name": "Satunuri Suresh",
+        "phone": "6300069432"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-014",
+    "name": "CLX_Perala",
+    "code": "CLX_Perala",
+    "state": "Andhra Pradesh",
+    "district": "Chirala",
+    "city": "Chirala",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Machavarapu Koteswararao",
+    "phone": "9505088667",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Machavarapu Koteswararao",
+    "contacts": [
+      {
+        "name": "Machavarapu Koteswararao",
+        "phone": "9505088667"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-015",
+    "name": "CTO_Pileru",
+    "code": "CTO_Pileru",
+    "state": "Andhra Pradesh",
+    "district": "Chittoor",
+    "city": "Chittoor",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "V Anil",
+    "phone": "9700662864",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "V Anil",
+    "contacts": [
+      {
+        "name": "V Anil",
+        "phone": "9700662864"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-016",
+    "name": "NDKD_Dachepalli",
+    "code": "NDKD_Dachepalli",
+    "state": "Andhra Pradesh",
+    "district": "Dachepalli",
+    "city": "Dachepalli",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Shaik Kalesha Vali",
+    "phone": "7095065212",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Shaik Kalesha Vali",
+    "contacts": [
+      {
+        "name": "Shaik Kalesha Vali",
+        "phone": "7095065212"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-017",
+    "name": "DIB_Niranjanpath_N",
+    "code": "DIB_Niranjanpath_N",
+    "state": "Assam",
+    "district": "Dibrugarh",
+    "city": "Dibrugarh",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Raj Kumar Thakur",
+    "phone": "9435692178, 7396500168",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_NE",
+    "region": "East",
+    "hiName": "Raj Kumar Thakur",
+    "contacts": [
+      {
+        "name": "Raj Kumar Thakur",
+        "phone": "9435692178"
+      },
+      {
+        "name": "Koyye Rahul",
+        "phone": "7396500168"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-018",
+    "name": "YLM_Elamanchili_TH",
+    "code": "YLM_Elamanchili_TH",
+    "state": "Andhra Pradesh",
+    "district": "Elamanchili",
+    "city": "Elamanchili",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Penki Sai",
+    "phone": "9652132075",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Penki Sai",
+    "contacts": [
+      {
+        "name": "Penki Sai",
+        "phone": "9652132075"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-019",
+    "name": "EE_Eluru",
+    "code": "EE_Eluru",
+    "state": "Andhra Pradesh",
+    "district": "Eluru",
+    "city": "Eluru",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Varri Kishore",
+    "phone": "7569453910",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Varri Kishore",
+    "contacts": [
+      {
+        "name": "Varri Kishore",
+        "phone": "7569453910"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-020",
+    "name": "EE_Powerpet",
+    "code": "EE_Powerpet",
+    "state": "Andhra Pradesh",
+    "district": "Eluru",
+    "city": "Eluru",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Suggala Naga Venkata Siva Pavan Sai",
+    "phone": "7075213996",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Suggala Naga Venkata Siva Pavan Sai",
+    "contacts": [
+      {
+        "name": "Suggala Naga Venkata Siva Pavan Sai",
+        "phone": "7075213996"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-021",
+    "name": "GLG_Golaghat_E",
+    "code": "GLG_Golaghat_E",
+    "state": "Assam",
+    "district": "Golaghat",
+    "city": "Golaghat",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Prashant Chetry",
+    "phone": "9395742088",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_NE",
+    "region": "East",
+    "hiName": "Prashant Chetry",
+    "contacts": [
+      {
+        "name": "Prashant Chetry",
+        "phone": "9395742088"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-022",
+    "name": "GDR_Gudur",
+    "code": "GDR_Gudur",
+    "state": "Andhra Pradesh",
+    "district": "Gudur",
+    "city": "Gudur",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Govindu Madhavaiah",
+    "phone": "9966893183",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Govindu Madhavaiah",
+    "contacts": [
+      {
+        "name": "Govindu Madhavaiah",
+        "phone": "9966893183"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-023",
+    "name": "GNT_AmravathiRoad_N",
+    "code": "GNT_AmravathiRoad_N",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "city": "Guntur",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Nissankararao Lakshman",
+    "phone": "9542142779, 9346789765",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Nissankararao Lakshman",
+    "contacts": [
+      {
+        "name": "Nissankararao Lakshman",
+        "phone": "9542142779"
+      },
+      {
+        "name": "Parvathaneni Praveen",
+        "phone": "9346789765"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-024",
+    "name": "PUA_Jangredygudem",
+    "code": "PUA_Jangredygudem",
+    "state": "Andhra Pradesh",
+    "district": "Jangareddygudem",
+    "city": "Jangareddygudem",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Parvataneni Praveen",
+    "phone": "",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Parvataneni Praveen",
+    "contacts": [
+      {
+        "name": "Parvataneni Praveen",
+        "phone": ""
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-025",
+    "name": "CDP_Kadapa_E",
+    "code": "CDP_Kadapa_E",
+    "state": "Andhra Pradesh",
+    "district": "kadapa",
+    "city": "kadapa",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Panthagani Ravi Kumar",
+    "phone": "8121958372",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Panthagani Ravi Kumar",
+    "contacts": [
+      {
+        "name": "Panthagani Ravi Kumar",
+        "phone": "8121958372"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-026",
+    "name": "HX_Cuddapah",
+    "code": "HX_Cuddapah",
+    "state": "Andhra Pradesh",
+    "district": "Kadapa",
+    "city": "Kadapa",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Posa Aravindh",
+    "phone": "6301829965",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Posa Aravindh",
+    "contacts": [
+      {
+        "name": "Posa Aravindh",
+        "phone": "6301829965"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-027",
+    "name": "EE_Kaikaluru",
+    "code": "EE_Kaikaluru",
+    "state": "Andhra Pradesh",
+    "district": "Kaikalur",
+    "city": "Kaikalur",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Dattada Bobby",
+    "phone": "",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Dattada Bobby",
+    "contacts": [
+      {
+        "name": "Dattada Bobby",
+        "phone": ""
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-028",
+    "name": "CCT_Suryaaraopeta_N",
+    "code": "CCT_Suryaaraopeta_N",
+    "state": "Andhra Pradesh",
+    "district": "Kakinada",
+    "city": "Kakinada",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Nandamuri Sri Gana Subrahmanyam",
+    "phone": "9032331222",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Nandamuri Sri Gana Subrahmanyam",
+    "contacts": [
+      {
+        "name": "Nandamuri Sri Gana Subrahmanyam",
+        "phone": "9032331222"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-029",
+    "name": "CCT_Kakinada",
+    "code": "CCT_Kakinada",
+    "state": "Andhra Pradesh",
+    "district": "Kakinada",
+    "city": "Kakinada",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Voleti Mohan Sasikumar",
+    "phone": "",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Voleti Mohan Sasikumar",
+    "contacts": [
+      {
+        "name": "Voleti Mohan Sasikumar",
+        "phone": ""
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-030",
+    "name": "SVPM_Kaligiri",
+    "code": "SVPM_Kaligiri",
+    "state": "Andhra Pradesh",
+    "district": "Kaligiri",
+    "city": "Kaligiri",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kandula Johny Vitlarbabu",
+    "phone": "",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kandula Johny Vitlarbabu",
+    "contacts": [
+      {
+        "name": "Kandula Johny Vitlarbabu",
+        "phone": ""
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-031",
+    "name": "UPL_Kankipadu",
+    "code": "UPL_Kankipadu",
+    "state": "Andhra Pradesh",
+    "district": "Kankipadu",
+    "city": "Kankipadu",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Allam Jyothi Sai Swaroop",
+    "phone": "",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Allam Jyothi Sai Swaroop",
+    "contacts": [
+      {
+        "name": "Allam Jyothi Sai Swaroop",
+        "phone": ""
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-032",
+    "name": "KVZ_Kavali",
+    "code": "KVZ_Kavali",
+    "state": "Andhra Pradesh",
+    "district": "Kavali",
+    "city": "Kavali",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Shaik Abdulsadiq",
+    "phone": "7993065599",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Shaik Abdulsadiq",
+    "contacts": [
+      {
+        "name": "Shaik Abdulsadiq",
+        "phone": "7993065599"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-033",
+    "name": "BDCR_Palvancha",
+    "code": "BDCR_Palvancha",
+    "state": "Andhra Pradesh",
+    "district": "Kothagudem",
+    "city": "Kothagudem",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Tagaram Vamsi Kamal Raj",
+    "phone": "",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Tagaram Vamsi Kamal Raj",
+    "contacts": [
+      {
+        "name": "Tagaram Vamsi Kamal Raj",
+        "phone": ""
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-034",
+    "name": "KVR_Kovvuru",
+    "code": "KVR_Kovvuru",
+    "state": "Andhra Pradesh",
+    "district": "Kovvur",
+    "city": "Kovvur",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Jonnada Pavan Kalyan",
+    "phone": "8008467348",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Jonnada Pavan Kalyan",
+    "contacts": [
+      {
+        "name": "Jonnada Pavan Kalyan",
+        "phone": "8008467348"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-035",
+    "name": "EE_Lingapalem",
+    "code": "EE_Lingapalem",
+    "state": "Andhra Pradesh",
+    "district": "Lingapalem",
+    "city": "Lingapalem",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Marripudi Hanuma Kumar",
+    "phone": "9676808949",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Marripudi Hanuma Kumar",
+    "contacts": [
+      {
+        "name": "Marripudi Hanuma Kumar",
+        "phone": "9676808949"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-036",
+    "name": "MCIA_Macherla",
+    "code": "MCIA_Macherla",
+    "state": "Andhra Pradesh",
+    "district": "Macherla",
+    "city": "Macherla",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Shaik Nafeez Vali",
+    "phone": "8885923641",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Shaik Nafeez Vali",
+    "contacts": [
+      {
+        "name": "Shaik Nafeez Vali",
+        "phone": "8885923641"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-037",
+    "name": "MPL_Madanapalle_TL",
+    "code": "MPL_Madanapalle_TL",
+    "state": "Andhra Pradesh",
+    "district": "Madanapalle",
+    "city": "Madanapalle",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "T Ramesh",
+    "phone": "8121556942",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "T Ramesh",
+    "contacts": [
+      {
+        "name": "T Ramesh",
+        "phone": "8121556942"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-038",
+    "name": "VSKP_Madhurawada",
+    "code": "VSKP_Madhurawada",
+    "state": "Andhra Pradesh",
+    "district": "Madhurawada",
+    "city": "Madhurawada",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kolli Somnadh",
+    "phone": "9281185261",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kolli Somnadh",
+    "contacts": [
+      {
+        "name": "Kolli Somnadh",
+        "phone": "9281185261"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-039",
+    "name": "MDP_Mandapeta_TH",
+    "code": "MDP_Mandapeta_TH",
+    "state": "Andhra Pradesh",
+    "district": "Mandapeta",
+    "city": "Mandapeta",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Pothula Guraprasad",
+    "phone": "9059704138",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Pothula Guraprasad",
+    "contacts": [
+      {
+        "name": "Pothula Guraprasad",
+        "phone": "9059704138"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-040",
+    "name": "MGG_Mangalagiri",
+    "code": "MGG_Mangalagiri",
+    "state": "Andhra Pradesh",
+    "district": "Mangalagiri",
+    "city": "Mangalagiri",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Govada Naga Malleswara Rao",
+    "phone": "9849616029",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Govada Naga Malleswara Rao",
+    "contacts": [
+      {
+        "name": "Govada Naga Malleswara Rao",
+        "phone": "9849616029"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-041",
+    "name": "NYP_Bypassrd",
+    "code": "NYP_Bypassrd",
+    "state": "Andhra Pradesh",
+    "district": "Naidupeta",
+    "city": "Naidupeta",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Mondam Praveen",
+    "phone": "6281271500",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Mondam Praveen",
+    "contacts": [
+      {
+        "name": "Mondam Praveen",
+        "phone": "6281271500"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-042",
+    "name": "VGA_Nandigama",
+    "code": "VGA_Nandigama",
+    "state": "Andhra Pradesh",
+    "district": "Nandigama",
+    "city": "Nandigama",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Polupongu Naveen",
+    "phone": "9059998778",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Polupongu Naveen",
+    "contacts": [
+      {
+        "name": "Polupongu Naveen",
+        "phone": "9059998778"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-043",
+    "name": "NPT_Narasannapeta",
+    "code": "NPT_Narasannapeta",
+    "state": "Andhra Pradesh",
+    "district": "narasannapeta",
+    "city": "narasannapeta",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "",
+    "phone": "9347536561",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "",
+    "contacts": [
+      {
+        "name": "",
+        "phone": "9347536561"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-044",
+    "name": "NRT_Narasaraopet",
+    "code": "NRT_Narasaraopet",
+    "state": "Andhra Pradesh",
+    "district": "Narasaraopet",
+    "city": "Narasaraopet",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Chanda Chandra Sekhar",
+    "phone": "9398970096",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Chanda Chandra Sekhar",
+    "contacts": [
+      {
+        "name": "Chanda Chandra Sekhar",
+        "phone": "9398970096"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-045",
+    "name": "NRP_Narsipatnam_TH",
+    "code": "NRP_Narsipatnam_TH",
+    "state": "Andhra Pradesh",
+    "district": "Narsipatnam",
+    "city": "Narsipatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Bisetti Bhagya Prasad",
+    "phone": "9533657582",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Bisetti Bhagya Prasad",
+    "contacts": [
+      {
+        "name": "Bisetti Bhagya Prasad",
+        "phone": "9533657582"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-046",
+    "name": "NLR_Nellore_E",
+    "code": "NLR_Nellore_E",
+    "state": "Andhra Pradesh",
+    "district": "Nellore",
+    "city": "Nellore",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Manikala Sisindri",
+    "phone": "9701588476",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Manikala Sisindri",
+    "contacts": [
+      {
+        "name": "Manikala Sisindri",
+        "phone": "9701588476"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-047",
+    "name": "NLR_KotthaKaluva",
+    "code": "NLR_KotthaKaluva",
+    "state": "Andhra Pradesh",
+    "district": "Nellore",
+    "city": "Nellore",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Praveen Kumar",
+    "phone": "9700819665",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Praveen Kumar",
+    "contacts": [
+      {
+        "name": "Praveen Kumar",
+        "phone": "9700819665"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-048",
+    "name": "NDOU_Nidadavolu",
+    "code": "NDOU_Nidadavolu",
+    "state": "Andhra Pradesh",
+    "district": "Nidadavolu",
+    "city": "Nidadavolu",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "",
+    "phone": "8688132668",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "",
+    "contacts": [
+      {
+        "name": "",
+        "phone": "8688132668"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-049",
+    "name": "NZD_Chekkapalli",
+    "code": "NZD_Chekkapalli",
+    "state": "Andhra Pradesh",
+    "district": "Nuzvid",
+    "city": "Nuzvid",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Mandadi Mohan Murali",
+    "phone": "8099682727, 8099692777",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Mandadi Mohan Murali",
+    "contacts": [
+      {
+        "name": "Mandadi Mohan Murali",
+        "phone": "8099682727"
+      },
+      {
+        "name": "Mandadi Mohan Murali",
+        "phone": "8099692777"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-050",
+    "name": "OGL_Ongole_E",
+    "code": "OGL_Ongole_E",
+    "state": "Andhra Pradesh",
+    "district": "Ongole",
+    "city": "Ongole",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kokkilagadda",
+    "phone": "8309412668 , 6303342027",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kokkilagadda",
+    "contacts": [
+      {
+        "name": "Kokkilagadda",
+        "phone": "8309412668 , 6303342027"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-051",
+    "name": "PAK_Irala",
+    "code": "PAK_Irala",
+    "state": "Andhra Pradesh",
+    "district": "Pakala",
+    "city": "Pakala",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Goduguchinta Pavan Sai",
+    "phone": "9966718894",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Goduguchinta Pavan Sai",
+    "contacts": [
+      {
+        "name": "Goduguchinta Pavan Sai",
+        "phone": "9966718894"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-052",
+    "name": "PLK_Palakonda",
+    "code": "PLK_Palakonda",
+    "state": "Andhra Pradesh",
+    "district": "Palakonda",
+    "city": "Palakonda",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Alajangi Atchuta Rao",
+    "phone": "8886017534",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Alajangi Atchuta Rao",
+    "contacts": [
+      {
+        "name": "Alajangi Atchuta Rao",
+        "phone": "8886017534"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-053",
+    "name": "PAK_Palamaner",
+    "code": "PAK_Palamaner",
+    "state": "Andhra Pradesh",
+    "district": "Palamaner",
+    "city": "Palamaner",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "S Zabulla",
+    "phone": "9100856915",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "S Zabulla",
+    "contacts": [
+      {
+        "name": "S Zabulla",
+        "phone": "9100856915"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-054",
+    "name": "PSA_Palasa_Kasibugga_TH",
+    "code": "PSA_Palasa_Kasibugga_TH",
+    "state": "Andhra Pradesh",
+    "district": "Palasa Kasibugga",
+    "city": "Palasa Kasibugga",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Natini Satyanarayana",
+    "phone": "8374713365",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Natini Satyanarayana",
+    "contacts": [
+      {
+        "name": "Natini Satyanarayana",
+        "phone": "8374713365"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-055",
+    "name": "PVP_Parvathipuram_TH",
+    "code": "PVP_Parvathipuram_TH",
+    "state": "Andhra Pradesh",
+    "district": "Parvathipuram",
+    "city": "Parvathipuram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Simhachalam Ganta",
+    "phone": "9676255618",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Simhachalam Ganta",
+    "contacts": [
+      {
+        "name": "Simhachalam Ganta",
+        "phone": "9676255618"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-056",
+    "name": "SML_Peddapuram_TH",
+    "code": "SML_Peddapuram_TH",
+    "state": "Andhra Pradesh",
+    "district": "Peddapuram",
+    "city": "Peddapuram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Thota Saikumar",
+    "phone": "9951157370",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Thota Saikumar",
+    "contacts": [
+      {
+        "name": "Thota Saikumar",
+        "phone": "9951157370"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-057",
+    "name": "PKD_Penukonda",
+    "code": "PKD_Penukonda",
+    "state": "Andhra Pradesh",
+    "district": "Penukonda",
+    "city": "Penukonda",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "G Janardhan",
+    "phone": "9620745648",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "G Janardhan",
+    "contacts": [
+      {
+        "name": "G Janardhan",
+        "phone": "9620745648"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-058",
+    "name": "PGRL_Piduguralla_TH",
+    "code": "PGRL_Piduguralla_TH",
+    "state": "Andhra Pradesh",
+    "district": "Piduguralla",
+    "city": "Piduguralla",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "No HI",
+    "phone": "8247812254",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "No HI",
+    "contacts": [
+      {
+        "name": "No HI",
+        "phone": "8247812254"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-059",
+    "name": "SUNR_Prathipadu_TH",
+    "code": "SUNR_Prathipadu_TH",
+    "state": "Andhra Pradesh",
+    "district": "Prathipadu",
+    "city": "Prathipadu",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gonthireddi Sailendra",
+    "phone": "9573708123",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gonthireddi Sailendra",
+    "contacts": [
+      {
+        "name": "Gonthireddi Sailendra",
+        "phone": "9573708123"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-060",
+    "name": "RJA_Balajipeta",
+    "code": "RJA_Balajipeta",
+    "state": "Andhra Pradesh",
+    "district": "Rajahmundry",
+    "city": "Rajahmundry",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Borra Anand Kumar",
+    "phone": "8885315278",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Borra Anand Kumar",
+    "contacts": [
+      {
+        "name": "Borra Anand Kumar",
+        "phone": "8885315278"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-061",
+    "name": "RJA_Rajamjundry_E",
+    "code": "RJA_Rajamjundry_E",
+    "state": "Andhra Pradesh",
+    "district": "Rajahmundry",
+    "city": "Rajahmundry",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Ketha Venkateswara Rao",
+    "phone": "8341328882",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Ketha Venkateswara Rao",
+    "contacts": [
+      {
+        "name": "Ketha Venkateswara Rao",
+        "phone": "8341328882"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-062",
+    "name": "SGDM_Rajam_TH",
+    "code": "SGDM_Rajam_TH",
+    "state": "Andhra Pradesh",
+    "district": "Rajam",
+    "city": "Rajam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Rajkumar Koraganji",
+    "phone": "9704077875",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Rajkumar Koraganji",
+    "contacts": [
+      {
+        "name": "Rajkumar Koraganji",
+        "phone": "9704077875"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-063",
+    "name": "RMV_Ramavarappadu",
+    "code": "RMV_Ramavarappadu",
+    "state": "Andhra Pradesh",
+    "district": "Ramavarappadu",
+    "city": "Ramavarappadu",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Saika Satish",
+    "phone": "9908070440",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Saika Satish",
+    "contacts": [
+      {
+        "name": "Saika Satish",
+        "phone": "9908070440"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-064",
+    "name": "GLP_Ravulapalem",
+    "code": "GLP_Ravulapalem",
+    "state": "Andhra Pradesh",
+    "district": "Ravulapalem",
+    "city": "Ravulapalem",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Nakka Mohan",
+    "phone": "8247665758",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Nakka Mohan",
+    "contacts": [
+      {
+        "name": "Nakka Mohan",
+        "phone": "8247665758"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-065",
+    "name": "RYC_Rayachoti",
+    "code": "RYC_Rayachoti",
+    "state": "Andhra Pradesh",
+    "district": "Rayachoti",
+    "city": "Rayachoti",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Asif",
+    "phone": "93903333935",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Asif",
+    "contacts": [
+      {
+        "name": "Asif",
+        "phone": "93903333935"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-066",
+    "name": "ROZ_Razole",
+    "code": "ROZ_Razole",
+    "state": "Andhra Pradesh",
+    "district": "Razole",
+    "city": "Razole",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kopanathi Venkatesh Varma",
+    "phone": "9949922870, 9949822870",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kopanathi Venkatesh Varma",
+    "contacts": [
+      {
+        "name": "Kopanathi Venkatesh Varma",
+        "phone": "9949922870"
+      },
+      {
+        "name": "Kopanathi Venkatesh Varma",
+        "phone": "9949822870"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-067",
+    "name": "RAI_Repalle",
+    "code": "RAI_Repalle",
+    "state": "Andhra Pradesh",
+    "district": "Repalle",
+    "city": "Repalle",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Bellamkonda Gopinath",
+    "phone": "9866517101",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Bellamkonda Gopinath",
+    "contacts": [
+      {
+        "name": "Bellamkonda Gopinath",
+        "phone": "9866517101"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-068",
+    "name": "SALR_Salur",
+    "code": "SALR_Salur",
+    "state": "Andhra Pradesh",
+    "district": "Salur",
+    "city": "Salur",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Bura Devi Vara Prasad",
+    "phone": "7671009161",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Bura Devi Vara Prasad",
+    "contacts": [
+      {
+        "name": "Bura Devi Vara Prasad",
+        "phone": "7671009161"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-069",
+    "name": "SAP_Sattenapalle_TH",
+    "code": "SAP_Sattenapalle_TH",
+    "state": "Andhra Pradesh",
+    "district": "Sattenapalle",
+    "city": "Sattenapalle",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Bokka Rajesh Babu",
+    "phone": "9052970930",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Bokka Rajesh Babu",
+    "contacts": [
+      {
+        "name": "Bokka Rajesh Babu",
+        "phone": "9052970930"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-070",
+    "name": "SPT_Sompeta",
+    "code": "SPT_Sompeta",
+    "state": "Andhra Pradesh",
+    "district": "Sompeta",
+    "city": "Sompeta",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Pujari Pradeep",
+    "phone": "9701940168",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Pujari Pradeep",
+    "contacts": [
+      {
+        "name": "Pujari Pradeep",
+        "phone": "9701940168"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-071",
+    "name": "CHE_Srikakulam_E",
+    "code": "CHE_Srikakulam_E",
+    "state": "Andhra Pradesh",
+    "district": "Srikakulam",
+    "city": "Srikakulam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Sora Sandeep",
+    "phone": "9182451631",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Sora Sandeep",
+    "contacts": [
+      {
+        "name": "Sora Sandeep",
+        "phone": "9182451631"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-072",
+    "name": "KHT_Srikalahasti",
+    "code": "KHT_Srikalahasti",
+    "state": "Andhra Pradesh",
+    "district": "Srikalahasti",
+    "city": "Srikalahasti",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "S Venkatesh",
+    "phone": "8897853697, 90528411934",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "S Venkatesh",
+    "contacts": [
+      {
+        "name": "S Venkatesh",
+        "phone": "8897853697"
+      },
+      {
+        "name": "pruvedha",
+        "phone": "90528411934"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-073",
+    "name": "SPE_Sullurupeta",
+    "code": "SPE_Sullurupeta",
+    "state": "Andhra Pradesh",
+    "district": "Sullurupeta",
+    "city": "Sullurupeta",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Mogiluru Gireesh",
+    "phone": "9676641091",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Mogiluru Gireesh",
+    "contacts": [
+      {
+        "name": "Mogiluru Gireesh",
+        "phone": "9676641091"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-074",
+    "name": "TDD_Tadepalligudem_TH",
+    "code": "TDD_Tadepalligudem_TH",
+    "state": "Andhra Pradesh",
+    "district": "Tadepalligudem",
+    "city": "Tadepalligudem",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Shaik Suleman",
+    "phone": "9381181458",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Shaik Suleman",
+    "contacts": [
+      {
+        "name": "Shaik Suleman",
+        "phone": "9381181458"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-075",
+    "name": "TNKU_Tanuku_TH",
+    "code": "TNKU_Tanuku_TH",
+    "state": "Andhra Pradesh",
+    "district": "Tanuku",
+    "city": "Tanuku",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Rambabu Chitti",
+    "phone": "9701212128",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Rambabu Chitti",
+    "contacts": [
+      {
+        "name": "Rambabu Chitti",
+        "phone": "9701212128"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-076",
+    "name": "TEL_Tenali_TH",
+    "code": "TEL_Tenali_TH",
+    "state": "Andhra Pradesh",
+    "district": "Tenali",
+    "city": "Tenali",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Puliapati Vamsi Sai Nadh",
+    "phone": "9182488163",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Puliapati Vamsi Sai Nadh",
+    "contacts": [
+      {
+        "name": "Puliapati Vamsi Sai Nadh",
+        "phone": "9182488163"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-077",
+    "name": "TPY_Tirupati_E",
+    "code": "TPY_Tirupati_E",
+    "state": "Andhra Pradesh",
+    "district": "Tirupati",
+    "city": "Tirupati",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "B Anil Kumar",
+    "phone": "9885885259",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "B Anil Kumar",
+    "contacts": [
+      {
+        "name": "B Anil Kumar",
+        "phone": "9885885259"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-078",
+    "name": "TPY_Tirupathi_Chandragiri",
+    "code": "TPY_Tirupathi_Chandragiri",
+    "state": "Andhra Pradesh",
+    "district": "Tirupati",
+    "city": "Tirupati",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Talari Purachandra",
+    "phone": "8121774525",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Talari Purachandra",
+    "contacts": [
+      {
+        "name": "Talari Purachandra",
+        "phone": "8121774525"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-079",
+    "name": "TPY_AutoNagar",
+    "code": "TPY_AutoNagar",
+    "state": "Andhra Pradesh",
+    "district": "Tirupati",
+    "city": "Tirupati",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Bhavyanagaram S Chiranjeevy",
+    "phone": "7390625911, 7396625911",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Bhavyanagaram S Chiranjeevy",
+    "contacts": [
+      {
+        "name": "Bhavyanagaram S Chiranjeevy",
+        "phone": "7390625911"
+      },
+      {
+        "name": "Bagyanagaram S Chiranjeevi",
+        "phone": "7396625911"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-080",
+    "name": "VGA_Patamata_N",
+    "code": "VGA_Patamata_N",
+    "state": "Andhra Pradesh",
+    "district": "Vijayawada",
+    "city": "Vijayawada",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gowri Venkateswara Reddy",
+    "phone": "9959814126, 9959814126",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gowri Venkateswara Reddy",
+    "contacts": [
+      {
+        "name": "Gowri Venkateswara Reddy",
+        "phone": "9959814126"
+      },
+      {
+        "name": "Gujjula Venkateswara Reddy",
+        "phone": "9959814126"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-081",
+    "name": "VGA_Bhavanipuram",
+    "code": "VGA_Bhavanipuram",
+    "state": "Andhra Pradesh",
+    "district": "Vijayawada",
+    "city": "Vijayawada",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gundara Phani Kumar Perumalla",
+    "phone": "9553528582",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gundara Phani Kumar Perumalla",
+    "contacts": [
+      {
+        "name": "Gundara Phani Kumar Perumalla",
+        "phone": "9553528582"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-082",
+    "name": "VGA_Visalandhra_N",
+    "code": "VGA_Visalandhra_N",
+    "state": "Andhra Pradesh",
+    "district": "Vijayawada",
+    "city": "Vijayawada",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Dharmapuri Jaya Sai Krishna",
+    "phone": "8919796425",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Dharmapuri Jaya Sai Krishna",
+    "contacts": [
+      {
+        "name": "Dharmapuri Jaya Sai Krishna",
+        "phone": "8919796425"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-083",
+    "name": "VKN_Vinukonda",
+    "code": "VKN_Vinukonda",
+    "state": "Andhra Pradesh",
+    "district": "Vinukonda",
+    "city": "Vinukonda",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Shaik Jaan Basha",
+    "phone": "9515905695, 9515905695",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Shaik Jaan Basha",
+    "contacts": [
+      {
+        "name": "Shaik Jaan Basha",
+        "phone": "9515905695"
+      },
+      {
+        "name": "Shaik Jaani Basha",
+        "phone": "9515905695"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-084",
+    "name": "VSKP_Akkayyapalem_TH",
+    "code": "VSKP_Akkayyapalem_TH",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kota Sampath",
+    "phone": "9985263184",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kota Sampath",
+    "contacts": [
+      {
+        "name": "Kota Sampath",
+        "phone": "9985263184"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-085",
+    "name": "VSKP_NAD_KothaRoad",
+    "code": "VSKP_NAD_KothaRoad",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "V V Mohan Vuduka",
+    "phone": "9985290124",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "V V Mohan Vuduka",
+    "contacts": [
+      {
+        "name": "V V Mohan Vuduka",
+        "phone": "9985290124"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-086",
+    "name": "VSKP_Vadlapudi",
+    "code": "VSKP_Vadlapudi",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gorres Jagadish",
+    "phone": "9551270949, 9553270949",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gorres Jagadish",
+    "contacts": [
+      {
+        "name": "Gorres Jagadish",
+        "phone": "9551270949"
+      },
+      {
+        "name": "Gondes Jagadish",
+        "phone": "9553270949"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-087",
+    "name": "VSKP_Gopalapatnam",
+    "code": "VSKP_Gopalapatnam",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Rangani Srinivas",
+    "phone": "7287098061, 7287098361",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Rangani Srinivas",
+    "contacts": [
+      {
+        "name": "Rangani Srinivas",
+        "phone": "7287098061"
+      },
+      {
+        "name": "Dommisi Thirnadh",
+        "phone": "7287098361"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-088",
+    "name": "VSKP_Akkayyapalem_N",
+    "code": "VSKP_Akkayyapalem_N",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kasa Sampath",
+    "phone": "9985263184",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kasa Sampath",
+    "contacts": [
+      {
+        "name": "Kasa Sampath",
+        "phone": "9985263184"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-089",
+    "name": "VSKP_NAD KothaRoad",
+    "code": "VSKP_NAD KothaRoad",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "V V Mohan Vudikala",
+    "phone": "9985250124",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "V V Mohan Vudikala",
+    "contacts": [
+      {
+        "name": "V V Mohan Vudikala",
+        "phone": "9985250124"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-090",
+    "name": "VSKP_Chittivalasa",
+    "code": "VSKP_Chittivalasa",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Peethala Narendra",
+    "phone": "9154458230",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Peethala Narendra",
+    "contacts": [
+      {
+        "name": "Peethala Narendra",
+        "phone": "9154458230"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-091",
+    "name": "VSKP_Jagadamba",
+    "code": "VSKP_Jagadamba",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Vasapilli Hariendra",
+    "phone": "8897234177",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Vasapilli Hariendra",
+    "contacts": [
+      {
+        "name": "Vasapilli Hariendra",
+        "phone": "8897234177"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-092",
+    "name": "VSKP_Sriharipuram",
+    "code": "VSKP_Sriharipuram",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Gotta Suresh Kumar",
+    "phone": "8555069359",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Gotta Suresh Kumar",
+    "contacts": [
+      {
+        "name": "Gotta Suresh Kumar",
+        "phone": "8555069359"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-093",
+    "name": "VSKP_Chinagantyada",
+    "code": "VSKP_Chinagantyada",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Kadiri Venkatesh",
+    "phone": "8985626197",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Kadiri Venkatesh",
+    "contacts": [
+      {
+        "name": "Kadiri Venkatesh",
+        "phone": "8985626197"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-094",
+    "name": "VSKP_MVPColony",
+    "code": "VSKP_MVPColony",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Katakoti Manohar",
+    "phone": "7729923991",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Katakoti Manohar",
+    "contacts": [
+      {
+        "name": "Katakoti Manohar",
+        "phone": "7729923991"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-095",
+    "name": "VSKP_Seethammadhara",
+    "code": "VSKP_Seethammadhara",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Alidotti Krishna Kishore",
+    "phone": "7207397895",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Alidotti Krishna Kishore",
+    "contacts": [
+      {
+        "name": "Alidotti Krishna Kishore",
+        "phone": "7207397895"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-096",
+    "name": "VSKP_Sabbavaram",
+    "code": "VSKP_Sabbavaram",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "city": "Visakhapatnam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Murri Raja Shekar",
+    "phone": "7013081132",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Murri Raja Shekar",
+    "contacts": [
+      {
+        "name": "Murri Raja Shekar",
+        "phone": "7013081132"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-097",
+    "name": "VZM_Vizianagaram_E",
+    "code": "VZM_Vizianagaram_E",
+    "state": "Andhra Pradesh",
+    "district": "Vizianagaram",
+    "city": "Vizianagaram",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Rajamahanti Sainaveen",
+    "phone": "7672011380",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "Rajamahanti Sainaveen",
+    "contacts": [
+      {
+        "name": "Rajamahanti Sainaveen",
+        "phone": "7672011380"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-098",
+    "name": "KDUH_Yanam",
+    "code": "KDUH_Yanam",
+    "state": "Assam",
+    "district": "Yanam",
+    "city": "Yanam",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "Chakkidala Sanjay Kumar",
+    "phone": "7337005173",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_NE",
+    "region": "East",
+    "hiName": "Chakkidala Sanjay Kumar",
+    "contacts": [
+      {
+        "name": "Chakkidala Sanjay Kumar",
+        "phone": "7337005173"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-099",
+    "name": "BRM_Bangarupalem",
+    "code": "BRM_Bangarupalem",
+    "state": "Andhra Pradesh",
+    "district": "Bangarupalem",
+    "city": "Bangarupalem",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "",
+    "phone": "9010075661",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "",
+    "contacts": [
+      {
+        "name": "",
+        "phone": "9010075661"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "XH-100",
+    "name": "HMA_Hukumpeta",
+    "code": "HMA_Hukumpeta",
+    "state": "Andhra Pradesh",
+    "district": "Hukumpeta",
+    "city": "Hukumpeta",
+    "pincode": "",
+    "location": "",
+    "address": "",
+    "manager": "",
+    "phone": "94938 94741",
+    "email": "",
+    "status": "Active",
+    "pod": "POD_AP/TS",
+    "region": "East",
+    "hiName": "",
+    "contacts": [
+      {
+        "name": "",
+        "phone": "94938 94741"
+      }
+    ],
+    "notes": []
+  }
+]

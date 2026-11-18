@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="logo.jpg" type="image/jpeg" />
+    <title>Rider Performance Dashboard · ON THE WAY LOGISTICS</title>
+    <style>
+      :root {
+        --navy: #102d59;
+        --orange: #ff7900;
+        --ink: #1d2a3f;
+        --muted: #5b6b82;
+        --line: #e2e8f0;
+        --bg: #f4f7fb;
+        --card: #fff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Arial,
+          sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      header.top {
+        background: var(--navy);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 14px 24px;
+        flex-wrap: wrap;
+      }
+      header.top img {
+        height: 44px;
+        width: 44px;
+        object-fit: cover;
+        border-radius: 8px;
+        background: #fff;
+      }
+      header.top h1 {
+        font-size: 20px;
+        margin: 0;
+      }
+      header.top .sub {
+        font-size: 13px;
+        opacity: 0.85;
+      }
+      header.top .spacer {
+        flex: 1;
+      }
+      .btn {
+        display: inline-block;
+        background: var(--orange);
+        color: #fff;
+        border: 0;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .btn:hover {
+        background: #e66c00;
+      }
+      .btn.ghost {
+        background: transparent;
+        border: 1px solid #fff;
+      }
+      main {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .drop {
+        background: var(--card);
+        border: 2px dashed #b8c6da;
+        border-radius: 12px;
+        padding: 18px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+      }
+      .drop.over {
+        border-color: var(--orange);
+        background: #fff7f0;
+      }
+      .drop .info {
+        flex: 1;
+        min-width: 240px;
+      }
+      .drop .info b {
+        color: var(--navy);
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .notice {
+        border-left: 4px solid var(--orange);
+        background: #fff;
+        padding: 12px 16px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        font-size: 14px;
+      }
+      .notice.error {
+        border-color: #c0392b;
+        color: #7a1f16;
+      }
+      .notice ul {
+        margin: 6px 0 0 18px;
+        padding: 0;
+      }
+      .controls {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        background: var(--card);
+        padding: 14px;
+        border-radius: 12px;
+        margin-bottom: 16px;
+      }
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        min-width: 160px;
+      }
+      .field label {
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+      select,
+      input[type="search"] {
+        padding: 9px 10px;
+        border: 1px solid #c5d1e0;
+        border-radius: 8px;
+        font-size: 14px;
+        background: #fff;
+        min-width: 180px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 12px;
+        padding: 14px 16px;
+        border-top: 4px solid var(--navy);
+        box-shadow: 0 1px 2px rgba(16, 45, 89, 0.08);
+      }
+      .card.hi {
+        border-top-color: var(--orange);
+      }
+      .card .k {
+        font-size: 11px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-weight: 700;
+      }
+      .card .v {
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--navy);
+        margin-top: 6px;
+      }
+      section.panel {
+        background: var(--card);
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 18px;
+        box-shadow: 0 1px 2px rgba(16, 45, 89, 0.08);
+      }
+      section.panel h2 {
+        font-size: 17px;
+        color: var(--navy);
+        margin: 0 0 4px;
+      }
+      .table-wrap {
+        overflow-x: auto;
+        margin-top: 10px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      th,
+      td {
+        padding: 9px 10px;
+        border-bottom: 1px solid var(--line);
+        text-align: right;
+        white-space: nowrap;
+      }
+      th {
+        background: #eef3fa;
+        color: var(--navy);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        position: sticky;
+        top: 0;
+      }
+      th:first-child,
+      td:first-child,
+      th.l,
+      td.l {
+        text-align: left;
+      }
+      tr.selected td {
+        background: #fff4ea;
+      }
+      tfoot td {
+        font-weight: 700;
+        background: #f7f9fc;
+        color: var(--navy);
+      }
+      .empty {
+        text-align: center;
+        color: var(--muted);
+        padding: 28px;
+      }
+      details.warn summary {
+        cursor: pointer;
+        color: var(--navy);
+        font-weight: 600;
+      }
+      footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 12px;
+        padding: 20px;
+      }
+      @media (max-width: 640px) {
+        header.top h1 {
+          font-size: 17px;
+        }
+        .field {
+          min-width: 100%;
+        }
+        select,
+        input[type="search"] {
+          min-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top">
+      <img src="logo.jpg" alt="ON THE WAY LOGISTICS logo" />
+      <div>
+        <h1>Rider Performance Dashboard</h1>
+        <div class="sub">ON THE WAY LOGISTICS · Admin</div>
+      </div>
+      <div class="spacer"></div>
+      <label class="btn" for="fileInput">Upload Excel</label>
+      <input id="fileInput" type="file" accept=".xlsx,.xls,.csv" hidden />
+    </header>
+
+    <main>
+      <div class="drop" id="dropzone">
+        <div class="info">
+          <b id="fileTitle">No Excel file loaded yet</b>
+          <div class="muted" id="fileMeta">
+            Upload a sheet with a Rider ID, Rider Name, Date (or Week), order
+            columns (Large/LM, Prime/PM, Club, SDD, FM, RTS) and Total Amount.
+            Drag a file here or use Upload Excel. The dashboard updates as soon
+            as the file is read.
+          </div>
+        </div>
+      </div>
+
+      <div id="notice"></div>
+
+      <div class="controls">
+        <div class="field">
+          <label for="mode">Period</label>
+          <select id="mode">
+            <option value="all">Overall (all dates)</option>
+            <option value="week">Week (Mon–Sun)</option>
+            <option value="date">Single date</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="period">Week / date</label>
+          <select id="period" disabled>
+            <option>—</option>
+          </select>
+        </div>
+        <div class="field" style="flex: 1">
+          <label for="search">Search rider</label>
+          <input
+            id="search"
+            type="search"
+            placeholder="Rider ID or name"
+            autocomplete="off"
+          />
+        </div>
+        <button
+          class="btn ghost"
+          id="exportBtn"
+          style="color: var(--navy); border-color: var(--navy)"
+          disabled
+        >
+          Export Excel
+        </button>
+      </div>
+
+      <div class="cards" id="cards"></div>
+
+      <section class="panel">
+        <h2>Individual Rider Details</h2>
+        <div class="muted" id="detailsMeta">
+          Riders in the selected period. Search filters this table only; the
+          cards above always cover all riders in the period.
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="l">Rider ID</th>
+                <th class="l">Rider Name</th>
+                <th class="l">Date</th>
+                <th>Total Weekly Orders</th>
+                <th>Large Orders</th>
+                <th>Prime Orders (PM)</th>
+                <th>Club Orders</th>
+                <th>SDD Orders</th>
+                <th>FM Orders</th>
+                <th>RTS Orders</th>
+                <th>Total Amount (₹)</th>
+              </tr>
+            </thead>
+            <tbody id="riderRows">
+              <tr>
+                <td colspan="11" class="empty">
+                  Upload an Excel file to see rider performance.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Weekly and Overall Summary</h2>
+        <div class="muted">
+          Each week counts its own riders. The overall line counts every rider
+          once across all dates.
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="l">Week (Mon–Sun)</th>
+                <th>Riders</th>
+                <th>Total Weekly Orders</th>
+                <th>Large</th>
+                <th>Prime (PM)</th>
+                <th>Club</th>
+                <th>SDD</th>
+                <th>FM</th>
+                <th>RTS</th>
+                <th>Total Amount (₹)</th>
+              </tr>
+            </thead>
+            <tbody id="weeklyRows">
+              <tr>
+                <td colspan="10" class="empty">No weekly data yet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Totals are calculated from the uploaded Excel sheet only. Amounts are the
+      Total Amount column as written in the sheet.
+    </footer>
+
+    <script src="lib/xlsx.full.min.js"></script>
+    <script>window.XLSX||document.write('<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"><\/script>');</script>
+    <script src="rider-performance-core.js"></script>
+    <script src="rider-performance.js"></script>
+  </body>
+</html>

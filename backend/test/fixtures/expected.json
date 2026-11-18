@@ -1,0 +1,189 @@
+{
+  "weekly-19oct-25oct": [
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-101",
+      "rider": "Appari Ravi Kumar",
+      "days": 6,
+      "lm": 214,
+      "primary": 150,
+      "club": 64,
+      "amount": 4520.5,
+      "sdd": 3
+    },
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-102",
+      "rider": "Shaik Ahmad Sharief",
+      "days": 5,
+      "lm": 180,
+      "primary": 120,
+      "club": 60,
+      "amount": 3800,
+      "sdd": 2
+    },
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-103",
+      "rider": "Pollareddy Narayanareddy",
+      "days": 7,
+      "lm": 301,
+      "primary": 200,
+      "club": 101,
+      "amount": 12345.75,
+      "sdd": 5
+    },
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-104",
+      "rider": "Karedla Vijaya Seshagiri",
+      "days": 0,
+      "lm": 0,
+      "primary": 0,
+      "club": 0,
+      "amount": 0,
+      "sdd": 0
+    },
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-105",
+      "rider": "Peram Krishna Rao",
+      "days": 4,
+      "lm": 96,
+      "primary": 60,
+      "club": 36,
+      "amount": 0,
+      "sdd": 1
+    }
+  ],
+  "weekly-26oct-01nov": [
+    {
+      "week": "26/10/2026",
+      "riderId": "OTW-101",
+      "rider": "Appari Ravi Kumar",
+      "days": 7,
+      "lm": 260,
+      "primary": 180,
+      "club": 80,
+      "amount": 5210.25,
+      "sdd": 4
+    },
+    {
+      "week": "26/10/2026",
+      "riderId": "OTW-102",
+      "rider": "Shaik Ahmad Sharief",
+      "days": 6,
+      "lm": 201,
+      "primary": 130,
+      "club": 71,
+      "amount": 4100.0,
+      "sdd": 3
+    },
+    {
+      "week": "26/10/2026",
+      "riderId": "OTW-103",
+      "rider": "Pollareddy Narayanareddy",
+      "days": 7,
+      "lm": 322,
+      "primary": 222,
+      "club": 100,
+      "amount": 13010.0,
+      "sdd": 6
+    },
+    {
+      "week": "26/10/2026",
+      "riderId": "OTW-106",
+      "rider": "Nagababu Annemreddy",
+      "days": 3,
+      "lm": 77,
+      "primary": 40,
+      "club": 37,
+      "amount": 1999.99,
+      "sdd": 2
+    }
+  ],
+  "daily-settlement-two-weeks": [
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-101",
+      "rider": "Appari Ravi Kumar",
+      "days": 4,
+      "lm": 84,
+      "primary": 75,
+      "club": 9,
+      "amount": 1497.75
+    },
+    {
+      "week": "26/10/2026 - 01/11/2026",
+      "riderId": "OTW-101",
+      "rider": "Appari Ravi Kumar",
+      "days": 3,
+      "lm": 94,
+      "primary": 73,
+      "club": 21,
+      "amount": 1607.75
+    },
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-102",
+      "rider": "Shaik Ahmad Sharief",
+      "days": 4,
+      "lm": 105,
+      "primary": 75,
+      "club": 30,
+      "amount": 1755.0
+    },
+    {
+      "week": "26/10/2026 - 01/11/2026",
+      "riderId": "OTW-102",
+      "rider": "Shaik Ahmad Sharief",
+      "days": 3,
+      "lm": 89,
+      "primary": 69,
+      "club": 20,
+      "amount": 1521.5
+    },
+    {
+      "week": "19/10/2026 - 25/10/2026",
+      "riderId": "OTW-107",
+      "rider": "Mohammed Fazzaley Khaza",
+      "days": 3,
+      "lm": 64,
+      "primary": 44,
+      "club": 20,
+      "amount": 1059.0
+    },
+    {
+      "week": "26/10/2026 - 01/11/2026",
+      "riderId": "OTW-107",
+      "rider": "Mohammed Fazzaley Khaza",
+      "days": 3,
+      "lm": 88,
+      "primary": 68,
+      "club": 20,
+      "amount": 1503.0
+    }
+  ],
+  "wide-summary": [
+    {
+      "week": "26/10/2026 - 01/11/2026",
+      "riderId": "",
+      "rider": "Appari Ravi Kumar",
+      "days": 6,
+      "lm": 148,
+      "primary": 93,
+      "club": 55,
+      "amount": 4890.5
+    },
+    {
+      "week": "26/10/2026 - 01/11/2026",
+      "riderId": "",
+      "rider": "Shaik Ahmad Sharief",
+      "days": 3,
+      "lm": 26,
+      "primary": 22,
+      "club": 4,
+      "amount": 1350
+    }
+  ]
+}

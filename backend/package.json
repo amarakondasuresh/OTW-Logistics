@@ -1,0 +1,26 @@
+{
+  "name": "ontheway-logistics-payments-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test --no-warnings test/rider-registrations.test.mjs test/portal-separation.test.mjs test/admin-auth.test.mjs test/admin-super.test.mjs test/hubs.test.mjs test/hub-excel.test.mjs test/weekly-payments.test.mjs test/reports.test.mjs test/partner-applications.test.mjs test/payment-imports.test.mjs test/payment-imports-fixture.test.mjs test/rider-performance.test.mjs test/drive-sync.test.mjs test/payment-cycles-15day.test.mjs test/payments-reports-sync.test.mjs test/partner-reports.test.mjs test/rider-id-sync.test.mjs test/vendor-admin-integration.test.mjs test/partner-notifications.test.mjs test/admin-documents.test.mjs test/admin-password-help.test.mjs test/admin-edit.test.mjs test/partner-emails.test.mjs test/partner-riders.test.mjs test/partner-ban.test.mjs test/check-port.test.mjs test/locations.test.mjs test/location-hub-approval.test.mjs test/support-tickets.test.mjs test/support-mail.test.mjs test/support-inbound.test.mjs test/admin-notifications.test.mjs",
+    "test:postgres": "node test-postgres-connection.js"
+  },
+  "dependencies": {
+    "@tesseract.js-data/eng": "^1.0.0",
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.5.0",
+    "nodemailer": "^10.2.1",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "^0.18.5",
+    "pg": "^8.16.3"
+  },
+  "description": "On The Way Logistics: website, admin panel, vendor portal and API"
+}

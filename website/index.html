@@ -1,0 +1,2029 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ON THE WAY LOGISTICS — Delivering Trust, Every Mile. Live logistics and shipment timeline, franchise and vendor partnership portal."
+    />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <title>ON THE WAY LOGISTICS | Live Shipment Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header Navigation with Logo & Role Controls -->
+    <header class="site-header home-header">
+      <div class="container">
+        <nav>
+          <a class="brand" href="#home" aria-label="ON THE WAY LOGISTICS">
+            <img
+              src="assets/logo.png"
+              alt="ON THE WAY LOGISTICS — Delivering Trust, Every Mile"
+              onerror="
+                this.onerror = null;
+                this.src = 'assets/logo.png';
+              "
+            />
+          </a>
+
+          <button
+            class="menu-btn"
+            id="menuToggle"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <ul class="navlinks" id="navLinks">
+            <li>
+              <a href="#home" class="nav-icon"
+                ><i class="fa-solid fa-house" aria-hidden="true"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-icon"
+                ><i class="fa-solid fa-address-card"></i>About Us</a
+              >
+            </li>
+            <li>
+              <a href="#services" class="nav-icon"
+                ><i class="fa-solid fa-layer-group"></i> Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#partner-portal"
+                onclick="openPartnerApplication('franchise')"
+                class="nav-icon"
+                ><i class="fa-solid fa-handshake"></i> Franchise</a
+              >
+            </li>
+            <li>
+              <a
+                href="#partner-portal"
+                onclick="openPartnerApplication('vendor')"
+                class="nav-icon"
+                ><i class="fa-solid fa-store"></i> Vendor</a
+              >
+            </li>
+            <li>
+              <a href="#locations" class="nav-icon"
+                ><i class="fa-solid fa-map-location-dot"></i> Location & Map</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============================================================
+         HERO SECTION (MATCHING SCREENSHOT 2026-10-27 EXACTLY)
+    ============================================================ -->
+      <section class="hero company-hero" id="home">
+        <div class="hero-stage" aria-hidden="true">
+          <div class="hero-depth">
+            <div class="hero-bg hero-layer"></div>
+            <div class="fx-macaw hero-layer"></div>
+            <div class="fx-scene hero-layer">
+              <div class="fx-sun"></div>
+              <div class="fx-water"></div>
+              <span
+                class="leaf"
+                style="left: 12%; top: 18%; --dur: 16s; --delay: 0s"
+              ></span>
+              <span
+                class="leaf"
+                style="left: 30%; top: 26%; --dur: 13s; --delay: -4s"
+              ></span>
+              <span
+                class="leaf"
+                style="left: 8%; top: 52%; --dur: 18s; --delay: -9s"
+              ></span>
+              <span
+                class="leaf"
+                style="left: 22%; top: 8%; --dur: 15s; --delay: -2s"
+              ></span>
+              <span
+                class="leaf"
+                style="left: 44%; top: 34%; --dur: 17s; --delay: -7s"
+              ></span>
+              <span
+                class="leaf"
+                style="left: 18%; top: 70%; --dur: 14s; --delay: -11s"
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+          <div
+            class="hero-content company-hero-content company-hero-simple"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Trust Strip -->
+      <section class="trust-strip">
+        <div class="container">
+          <div class="trust-item">
+            <b>✥</b><span>Service with integrity</span>
+          </div>
+          <div class="trust-item">
+            <b>◷</b><span>Care in every moment</span>
+          </div>
+          <div class="trust-item">
+            <b>⌖</b><span>Proudly rooted in Anantapur</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         ABOUT US SECTION (COMPLETE USER PROVIDED CONTENT)
+    ============================================================ -->
+      <section
+        class="partner-logos"
+        aria-label="Logistics and e-commerce partners"
+      >
+        <div class="partner-viewport" tabindex="0">
+          <ul class="partner-track">
+            <li class="partner-logo">
+              <img
+                src="assets/partners/shadowfax.png"
+                alt="Shadowfax logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Shadowfax</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/amazon.png"
+                alt="Amazon logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Amazon</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/flipkart.png"
+                alt="Flipkart logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Flipkart</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/meesho.png"
+                alt="Meesho logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Meesho</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/myntra.png"
+                alt="Myntra logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Myntra</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/ajio.png"
+                alt="AJIO logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>AJIO</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/zepto.png"
+                alt="Zepto logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Zepto</span>
+            </li>
+            <li class="partner-logo">
+              <img
+                src="assets/partners/delhivery.png"
+                alt="Delhivery logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Delhivery</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/shadowfax.png"
+                alt="Shadowfax logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Shadowfax</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/amazon.png"
+                alt="Amazon logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Amazon</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/flipkart.png"
+                alt="Flipkart logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Flipkart</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/meesho.png"
+                alt="Meesho logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Meesho</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/myntra.png"
+                alt="Myntra logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Myntra</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/ajio.png"
+                alt="AJIO logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>AJIO</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/zepto.png"
+                alt="Zepto logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Zepto</span>
+            </li>
+            <li class="partner-logo" aria-hidden="true">
+              <img
+                src="assets/partners/delhivery.png"
+                alt="Delhivery logo"
+                loading="lazy"
+                onerror="
+                  this.closest('.partner-logo').classList.add('logo-missing');
+                  this.remove();
+                "
+              /><span>Delhivery</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--about-us-->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="about-lead">
+            <p class="eyebrow" style="justify-content: center">
+              <span></span> ABOUT US – ON THE WAY LOGISTICS
+            </p>
+            <h2>Connecting Businesses, <em>Delivering Trust</em></h2>
+            <p>
+              Welcome to OnTheWay Logistics, a logistics and delivery service
+              company committed to providing reliable, efficient, and convenient Delivery Partners/ Delivery Solutions. We focus on connecting businesses, vendors,
+              customers, and delivery partners through organised logistics
+              operations and dependable service.
+            </p>
+            <p>
+              At OnTheWay Logistics, we understand that logistics is more than
+              simply moving parcels from one place to another. It is about
+              building trust, maintaining strong relationships, saving time, and
+              ensuring that every delivery is handled with care and
+              responsibility. Our goal is to make delivery operations smoother,
+              faster, and more accessible for businesses and customers.
+            </p>
+            <p>
+              We continuously work towards improving our services, strengthening
+              our delivery network, and creating better opportunities for people
+              who want to grow in the logistics industry.
+            </p>
+          </div>
+
+          <div class="lead-wrap">
+            <div class="lead-heading">
+              <span class="lead-rule" aria-hidden="true"></span>
+              <h2 class="lead-title">MEET OUR FOUNDER</h2>
+              <span class="lead-rule" aria-hidden="true"></span>
+            </div>
+
+            <div class="lead-grid">
+              <article class="lead-card">
+                <div class="lead-photo">
+                  <img
+                    src="assets/leadership/rajkumar-namburi.jpg"
+                    alt="Rajkumar Namburi, CEO of OnTheWay Logistics"
+                    loading="lazy"
+                  />
+                  <h3 class="lead-name">Namburi Rajkumar</h3>
+                </div>
+
+                <div class="lead-info">
+                  <p class="lead-role"><i>CEO</i></p>
+                  <p class="lead-desc">
+                    Guides the company's vision and overall direction, with a
+                    focus on dependable logistics, strong partnerships, and
+                    customer trust.
+                  </p>
+                  <a
+                    class="lead-linkedin"
+                    href="https://www.linkedin.com/in/rajkumar-namburi-1bb07531a"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Rajkumar Namburi on LinkedIn"
+                  >
+                    <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+                  </a>
+                </div>
+              </article>
+
+              <article class="lead-card">
+                <div class="lead-photo">
+                  <img
+                    src="assets/leadership/pavan-nakka.jpg"
+                    alt="Pavan Nakka, Co-Founder of OnTheWay Logistics"
+                    loading="lazy"
+                  />
+                  <h3 class="lead-name">Nakka Pavan</h3>
+                </div>
+                <div class="lead-info">
+                  <p class="lead-role"><i>Co-Founder</i></p>
+                  <p class="lead-desc">
+                    Helps shape the company's growth and service experience,
+                    bringing a people-first mindset and a commitment to reliable
+                    operations.
+                  </p>
+                  <a
+                    class="lead-linkedin"
+                    href="https://www.linkedin.com/in/pavan-nakka-p7288832372"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Pavan Nakka on LinkedIn"
+                  >
+                    <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <p class="lead-quote">
+              <mark>“START YOUR JOURNEY WITH US .”</mark>
+            </p>
+          </div>
+
+          <!-- Who We Are, Our Mission & Vision -->
+          <div class="about-pillars-grid">
+            <div class="about-pillar-card">
+              <h3><i class="fa-solid fa-users"></i> Who We Are</h3>
+              <p>
+                OnTheWay Logistics is dedicated to supporting the growing needs
+                of the delivery and logistics sector. We aim to provide a
+                structured platform where clients, vendors, franchise partners,
+                and delivery associates can connect with our business
+                operations.
+              </p>
+              <p>
+                Our approach focuses on professional service, effective
+                coordination, transparent communication, and customer
+                satisfaction. We believe that successful logistics operations
+                depend on teamwork, proper planning, responsible handling, and
+                timely communication.
+              </p>
+              <p>
+                Through our services and business network, we aim to help
+                businesses manage their delivery requirements while creating
+                opportunities for individuals interested in working with the
+                logistics industry.
+              </p>
+            </div>
+
+            <div class="about-pillar-card">
+              <h3><i class="fa-solid fa-bullseye"></i> Our Mission & Vision</h3>
+              <strong
+                style="color: var(--navy); display: block; margin-bottom: 6px"
+                >Our Mission</strong
+              >
+              <p>
+                Our mission is to deliver reliable logistics solutions by
+                focusing on service quality, operational efficiency, customer
+                satisfaction, and professional relationships. We strive to
+                support businesses with their delivery requirements, provide
+                opportunities for delivery partners, and build a dependable
+                network that benefits customers and business partners. We
+                believe that every parcel represents a promise, every customer
+                deserves respect, and every delivery partner contributes to the
+                success of our operations.
+              </p>
+              <strong
+                style="
+                  color: var(--navy);
+                  display: block;
+                  margin-top: 14px;
+                  margin-bottom: 6px;
+                "
+                >Our Vision</strong
+              >
+              <p>
+                Our vision is to become a trusted and recognised name in the
+                logistics and delivery industry by continuously improving our
+                services, expanding our business network, and adopting better
+                technology. We aspire to build a strong logistics ecosystem that
+                connects customers, businesses, vendors, franchise partners, and
+                delivery associates through efficient coordination and
+                dependable service.
+              </p>
+            </div>
+          </div>
+
+          <!-- What We Do (6 Areas) -->
+          <div
+            style="text-align: center; max-width: 700px; margin: 0 auto 10px"
+          >
+            <p class="eyebrow" style="justify-content: center">
+              <span></span> SCOPE OF OPERATIONS
+            </p>
+            <h3 style="font-size: 2.2rem; color: var(--navy)">What We Do</h3>
+            <p style="color: #0a1a3f; font-weight: 600">
+              Supporting diverse operations of logistics and delivery management
+              across regional networks.
+            </p>
+          </div>
+
+          <div class="what-we-do-grid">
+            <div class="what-card">
+              <div class="what-card-icon">
+                <i class="fa-solid fa-box-open"></i>
+              </div>
+              <h4>1. Parcel Delivery Services</h4>
+              <p>
+                We focus on supporting parcel delivery operations with attention
+                to proper handling, efficient coordination, and dependable
+                service throughout the delivery process.
+              </p>
+            </div>
+
+            <div class="what-card">
+              <div class="what-card-icon">
+                <i class="fa-solid fa-handshake-angle"></i>
+              </div>
+              <h4>2. Business & Vendor Support</h4>
+              <p>
+                We aim to connect with businesses and vendors that require
+                logistics support. Our goal is to develop professional
+                relationships and help partners manage their delivery
+                requirements efficiently.
+              </p>
+            </div>
+
+            <div class="what-card">
+              <div class="what-card-icon">
+                <i class="fa-solid fa-store"></i>
+              </div>
+              <h4>3. Franchise Opportunities</h4>
+              <p>
+                We provide an application process for individuals and businesses
+                interested in exploring franchise opportunities with OnTheWay
+                Logistics. Interested applicants can submit their details for
+                review and further communication.
+              </p>
+            </div>
+
+            <div class="what-card">
+              <div class="what-card-icon">
+                <i class="fa-solid fa-person-biking"></i>
+              </div>
+              <h4>4. Delivery Partner Recruitment</h4>
+              <p>
+                We aim to create opportunities for delivery partners who are
+                interested in working in the logistics sector. Applicants can
+                register their details and explore available opportunities based
+                on business requirements.
+              </p>
+            </div>
+
+            <div class="what-card">
+              <div class="what-card-icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <h4>5. Customer Support</h4>
+              <p>
+                We value every customer and aim to provide clear communication,
+                assistance, and support for delivery-related questions and
+                service requirements.
+              </p>
+            </div>
+
+            <div class="what-card">
+              <div class="what-card-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h4>6. Digital Logistics Management</h4>
+              <p>
+                We aim to use digital systems to simplify registration,
+                application management, customer communication, and business
+                coordination. Our website is designed to help visitors access
+                relevant information and submit applications conveniently.
+              </p>
+            </div>
+          </div>
+
+          <!-- Why Choose OnTheWay Logistics -->
+          <div class="why-section">
+            <div class="why-glass">
+              <div
+                style="
+                  text-align: center;
+                  max-width: 650px;
+                  margin: 0 auto 25px;
+                "
+              >
+                <p class="eyebrow" style="justify-content: center">
+                  <span></span> VALUE PROPOSITION
+                </p>
+                <h3 style="font-size: 2rem; color: var(--navy)">
+                  Why Choose <em>OnTheWay Logistics?</em>
+                </h3>
+              </div>
+              <div class="why-choose-grid">
+                <div class="why-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <div>
+                    <strong>Reliability</strong>
+                    <span
+                      >We understand the importance of dependable delivery
+                      operations and strive to provide consistent service.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="why-item">
+                  <i class="fa-regular fa-user"></i>
+                  <div>
+                    <strong>Customer-Focused Approach</strong>
+                    <span
+                      >We aim to understand customer requirements and provide
+                      helpful, professional communication.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="why-item">
+                  <i class="fa-solid fa-diagram-project"></i>
+                  <div>
+                    <strong>Efficient Coordination</strong>
+                    <span
+                      >We value teamwork, planning, and communication to support
+                      smooth logistics operations.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="why-item">
+                  <i class="fa-solid fa-briefcase"></i>
+                  <div>
+                    <strong>Business Opportunities</strong>
+                    <span
+                      >We welcome enquiries from eligible individuals and
+                      businesses interested in vendor partnerships, franchise
+                      opportunities, and delivery-related roles.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="why-item">
+                  <i class="fa-solid fa-award"></i>
+                  <div>
+                    <strong>Professional Service</strong>
+                    <span
+                      >We believe in responsible work practices, respectful
+                      communication, and continuous improvement.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="why-item">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <div>
+                    <strong>Technology and Convenience</strong>
+                    <span
+                      >We aim to make our online services accessible and
+                      simplify the process of contacting our company and
+                      submitting applications.</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Commitment & Partners -->
+          <div
+            class="about-pillars-grid"
+            style="margin-top: 40px; margin-bottom: 0"
+          >
+            <div
+              class="about-pillar-card"
+              style="border-left-color: var(--navy)"
+            >
+              <h3>
+                <i class="fa-solid fa-shield-halved"></i> Our Commitment to
+                Customers
+              </h3>
+              <p>
+                At OnTheWay Logistics, customer satisfaction is an important
+                part of our business philosophy. We understand that customers
+                expect clear information, responsible parcel handling, and
+                dependable service.
+              </p>
+              <p>
+                We aim to build long-term relationships by listening to customer
+                needs, improving our processes, and providing appropriate
+                assistance whenever required.
+              </p>
+              <p>
+                Our commitment is to work towards a smoother delivery experience
+                through coordination, accountability, and continuous service
+                improvement.
+              </p>
+            </div>
+
+            <div
+              class="about-pillar-card"
+              style="border-left-color: var(--navy)"
+            >
+              <h3>
+                <i class="fa-solid fa-network-wired"></i> Our Partners and
+                Delivery Network
+              </h3>
+              <p>
+                A strong logistics network depends on cooperation between
+                businesses, vendors, franchise partners, and delivery
+                associates. We recognise the importance of every person and
+                organisation involved in supporting delivery operations.
+              </p>
+              <p>
+                OnTheWay Logistics aims to encourage professional partnerships,
+                improve coordination, and create a supportive environment for
+                people who contribute to the logistics sector.
+              </p>
+              <p>
+                We welcome enquiries from businesses and individuals who share
+                our interest in reliable service, responsible operations, and
+                sustainable growth.
+              </p>
+            </div>
+          </div>
+
+          <!-- Join & Promise Banner: full-width waterfall photo (from reference) -->
+          <div class="about-banner-quote join-banner">
+            <p class="join-tagline">
+              <span
+                >RELIABLE SERVICE, RESPONSIBLE OPERATIONS, AND SUSTAINABLE
+                GROWTH.</span
+              >
+            </p>
+            <h3>
+              Join OnTheWay Logistics — <span>Moving Forward Together</span>
+            </h3>
+            <p class="join-intro">
+              We are committed to providing safe, fast, and reliable logistics
+              solutions, ensuring every parcel, every delivery, and every
+              partnership moves forward. With a focus on customer satisfaction,
+              innovation, and sustainability, we build a stronger, connected
+              tomorrow.
+            </p>
+            <div class="join-actions">
+              <button
+                class="join-btn join-btn-franchise"
+                onclick="openPartnerApplication('franchise')"
+              >
+                <i class="fa-solid fa-store"></i> Franchise Option
+              </button>
+              <button
+                class="join-btn join-btn-vendor"
+                onclick="openPartnerApplication('vendor')"
+              >
+                <i class="fa-solid fa-handshake"></i> Vendor Option
+              </button>
+            </div>
+            <div class="join-more">
+              <p>
+                Are you interested in working with us, becoming a vendor,
+                exploring a franchise opportunity, or learning more about our
+                logistics services? OnTheWay Logistics welcomes enquiries from
+                customers, businesses, vendors, potential franchise partners,
+                and delivery job applicants.
+              </p>
+              <p style="font-size: 0.92rem; font-style: italic; color: #10366b">
+                "Our Promise: At OnTheWay Logistics, we believe that trust is
+                built through responsible actions, professional relationships,
+                and a commitment to improvement. We will continue striving to
+                provide better logistics support, develop meaningful
+                partnerships, and create a convenient experience for the people
+                who connect with our company."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services section" id="services">
+        <div class="services-band">
+          <div class="container" style="margin-top: 0px">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow"><span></span> SERVICES</p>
+                <h2>Delivering Excellence<br /><em>At Every Mile</em></h2>
+              </div>
+              <p>
+                End-to-end logistics support built around careful parcel
+                handling, dependable local transport, responsive coordination
+                and clear communication. We help businesses keep deliveries
+                moving smoothly from pickup to the final doorstep.
+              </p>
+            </div>
+            <div class="service-grid">
+              <article class="service-card">
+                <span class="num">01</span>
+                <div class="icon-box"><i class="fa-solid fa-box"></i></div>
+                <div>
+                  <h3>Last-mile delivery</h3>
+                  <p>
+                    A dependable final step for every parcel, handled with care
+                    from dispatch to doorstep. Our delivery process focuses on
+                    timely handovers, careful package handling, route
+                    coordination and a professional customer experience at the
+                    point of delivery.
+                  </p>
+                </div>
+                <b>FOR EVERY DOORSTEP &nbsp;→</b>
+              </article>
+              <article class="service-card">
+                <span class="num">02</span>
+                <div class="icon-box"><i class="fa-solid fa-truck"></i></div>
+                <div>
+                  <h3>Local transportation</h3>
+                  <p>
+                    Practical, on-the-ground transport that keeps local
+                    businesses and communities moving. We support local movement
+                    between pickup points, hubs and delivery locations with
+                    organised coordination designed to reduce avoidable delays
+                    and keep daily operations on track.
+                  </p>
+                </div>
+                <b>ACROSS YOUR CITY &nbsp;→</b>
+              </article>
+              <article class="service-card">
+                <span class="num">03</span>
+                <div class="icon-box">
+                  <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <div>
+                  <h3>Logistics support</h3>
+                  <p>
+                    Reliable people and thoughtful coordination for smoother
+                    day-to-day operations. From operational follow-ups and
+                    partner communication to delivery planning, our support
+                    helps teams manage routine logistics requirements with
+                    greater clarity and consistency.
+                  </p>
+                </div>
+                <b>BUILT AROUND YOU &nbsp;→</b>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="services-approach" aria-label="Our service approach">
+            <div class="services-approach-mark">
+              <i class="fa-solid fa-route"></i>
+            </div>
+            <div class="services-approach-copy">
+              <p class="eyebrow"><span></span> HOW WE WORK</p>
+              <h3>Every delivery, thoughtfully coordinated.</h3>
+              <p>
+                We connect people, local businesses and delivery partners
+                through clear communication and practical planning. From
+                arranging the movement of parcels to coordinating the final
+                handover, our focus is on
+                <span class="sa-hl">dependable service</span>,
+                <span class="sa-hl">careful handling</span> and
+                <span class="sa-hl">a smoother experience</span> at every step.
+              </p>
+            </div>
+            <div class="services-approach-points">
+              <span><i class="fa-solid fa-check"></i> Careful handling</span>
+              <span><i class="fa-solid fa-check"></i> Local coordination</span>
+              <span><i class="fa-solid fa-check"></i> Responsive support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         FRANCHISE AND VENDOR APPLICATION PORTAL
+    ============================================================ -->
+      <section class="portal-section section" id="partner-portal">
+        <div class="container">
+          <div
+            style="text-align: center; max-width: 760px; margin: 0 auto 30px"
+          >
+            <p class="eyebrow" style="justify-content: center">
+              <span></span> ONLINE PORTAL & MANAGEMENT
+            </p>
+            <h2 style="font-size: clamp(2rem, 3.5vw, 3rem); color: var(--navy)">
+              Partner Application Portal
+            </h2>
+            <p style="color: var(--muted); margin-top: 10px">
+              Choose an application below to explore franchise opportunities or
+              register your business as a logistics vendor.
+            </p>
+          </div>
+
+          <div class="portal-box">
+            <!-- Role Selection Tabs -->
+            <div class="tab-bar">
+              <!-- Franchise Tab -->
+              <button
+                class="tab-btn active"
+                id="tabRoleFranchise"
+                onclick="selectRoleTab('franchise')"
+              >
+                <i class="fa-solid fa-store"></i> Franchise Application
+              </button>
+              <!-- Vendor Tab -->
+              <button
+                class="tab-btn"
+                id="tabRoleVendor"
+                onclick="selectRoleTab('vendor')"
+              >
+                <i class="fa-solid fa-truck-ramp-box"></i> Vendor Application
+              </button>
+            </div>
+
+            <div class="tab-content">
+              <div id="statusNotification" class="status-msg"></div>
+
+              <!-- ==================== 2. FRANCHISE APPLICATION VIEW ==================== -->
+              <div class="portal-view active" id="viewFranchise">
+                <div
+                  style="
+                    margin-bottom: 24px;
+                    border-bottom: 1px solid var(--line);
+                    padding-bottom: 14px;
+                  "
+                >
+                  <h3 style="font-size: 1.5rem; color: var(--navy)">
+                    <i
+                      class="fa-solid fa-store"
+                      style="color: var(--orange)"
+                    ></i>
+                    Franchise Territory Application Form
+                  </h3>
+                  <p style="color: var(--muted); font-size: 0.9rem">
+                    Tell us about yourself and the territory you would like to
+                    serve. Fields marked * are required.
+                  </p>
+                </div>
+
+                <form
+                  id="franchiseForm"
+                  onsubmit="handlePortalSubmit(event, 'Franchise')"
+                  autocomplete="off"
+                >
+                  <div class="form-grid">
+                    <div class="form-group col-span-1">
+                      <label for="ft_name">Full Name *</label>
+                      <input
+                        type="text"
+                        id="ft_name"
+                        name="fullName"
+                        required
+                        placeholder="Enter your full name."
+                        autocomplete="name"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_dob">Date of Birth *</label>
+                      <input
+                        type="date"
+                        id="ft_dob"
+                        name="dateOfBirth"
+                        required
+                        title="Date of birth (DD/MM/YYYY)"
+                      />
+                      <small
+                        style="
+                          display: block;
+                          margin-top: 4px;
+                          font-size: 0.8rem;
+                          color: var(--muted, #6b7280);
+                        "
+                        >Format: DD/MM/YYYY</small
+                      >
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_email">Gmail / Email ID *</label>
+                      <input
+                        type="email"
+                        id="ft_email"
+                        name="gmail"
+                        required
+                        autocomplete="email"
+                        placeholder="example@gmail.com"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_mobile">Contact Number *</label>
+                      <input
+                        type="tel"
+                        id="ft_mobile"
+                        name="contactNumber"
+                        required
+                        inputmode="tel"
+                        autocomplete="tel"
+                        pattern="(\+?91[\s\-]?)?[6-9](?:[\s\-]?[0-9]){9}"
+                        title="Enter a 10-digit mobile number starting with 6-9"
+                        placeholder="+91 XXXXX XXXXX"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_whatsapp">WhatsApp Number *</label>
+                      <input
+                        type="tel"
+                        id="ft_whatsapp"
+                        name="whatsappNumber"
+                        required
+                        inputmode="tel"
+                        pattern="(\+?91[\s\-]?)?[6-9](?:[\s\-]?[0-9]){9}"
+                        title="Enter a 10-digit mobile number starting with 6-9"
+                        placeholder="+91 XXXXX XXXXX"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_state">State / Union Territory *</label>
+                      <input
+                        type="text"
+                        id="ft_state"
+                        name="state"
+                        required
+                        list="ft_state_list"
+                        autocomplete="off"
+                        placeholder="Type or select a state"
+                      />
+                      <datalist id="ft_state_list"></datalist>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_district">District *</label>
+                      <input
+                        type="text"
+                        id="ft_district"
+                        name="district"
+                        required
+                        list="ft_district_list"
+                        autocomplete="off"
+                        placeholder="Type or select a district"
+                      />
+                      <datalist id="ft_district_list"></datalist>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_city">Village Name / City Name *</label>
+                      <input
+                        type="text"
+                        id="ft_city"
+                        name="cityOrVillage"
+                        required
+                        list="ft_city_list"
+                        autocomplete="off"
+                        placeholder="Type village, town or city"
+                      />
+                      <datalist id="ft_city_list"></datalist>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_area">Location / Area Name *</label>
+                      <input
+                        type="text"
+                        id="ft_area"
+                        name="locationArea"
+                        required
+                        list="ft_area_list"
+                        autocomplete="off"
+                        placeholder="Select or type your area name"
+                      />
+                      <datalist id="ft_area_list"></datalist>
+                      <small
+                        style="
+                          display: block;
+                          margin-top: 4px;
+                          font-size: 0.8rem;
+                          color: var(--muted, #6b7280);
+                        "
+                        >Not in the list? Type your area name.</small
+                      >
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_pin">PIN Code *</label>
+                      <input
+                        type="text"
+                        id="ft_pin"
+                        name="pincode"
+                        required
+                        inputmode="numeric"
+                        maxlength="6"
+                        pattern="[1-9][0-9]{5}"
+                        title="Enter the 6-digit PIN code"
+                        autocomplete="postal-code"
+                        placeholder="6-digit PIN code"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-2">
+                      <label for="ft_address">Full Address *</label>
+                      <textarea
+                        id="ft_address"
+                        name="address"
+                        required
+                        autocomplete="street-address"
+                        placeholder="Enter House No., Building Name, Street, Landmark and complete address."
+                      ></textarea>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="ft_years">Years of Experience *</label>
+                      <input
+                        type="number"
+                        id="ft_years"
+                        name="yearsOfExperience"
+                        required
+                        min="0"
+                        max="10"
+                        step="1"
+                        inputmode="numeric"
+                        placeholder="Enter number of years"
+                      />
+                      <small id="ft_yearsError" style="color:#b42318;margin-top:4px;" role="alert" hidden></small>
+                    </div>
+                    <div class="form-group col-span-1">
+                      <label for="ft_applicantCategory">Applicant Category *</label>
+                      <input
+                        type="text"
+                        id="ft_applicantCategory"
+                        name="applicantCategory"
+                        value=""
+                        readonly
+                        aria-readonly="true"
+                        tabindex="-1"
+                        placeholder="Set automatically from experience"
+                        style="background:#eef2f7;cursor:not-allowed;"
+                      />
+                    </div>
+                    <div class="form-group col-span-1" id="ft_aadhaarWrap" hidden>
+                      <label for="ft_aadhaar">Aadhaar Card Upload * (PDF/JPG/PNG, max 5 MB)</label>
+                      <input id="ft_aadhaar" name="aadhaarCard" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" required />
+                    </div>
+                    <div class="form-group col-span-1" id="ft_salaryMonthsWrap" hidden>
+                      <label for="ft_salaryMonths">Salary Slip Period *</label>
+                      <select id="ft_salaryMonths" name="salarySlipMonths">
+                        <option value="">Select period</option><option value="3">Last 3 months</option><option value="6">Last 6 months</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-span-2" id="ft_salarySlipsWrap" hidden>
+                      <label for="ft_salarySlips">Salary Slips * (one file per month, PDF/JPG/PNG, max 5 MB each)</label>
+                      <input id="ft_salarySlips" name="salarySlips" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" multiple />
+                      <small>Upload exactly 3 or 6 monthly salary slip files, based on your selection.</small>
+                    </div>
+                  </div>
+
+                  <button
+                    class="btn btn-orange"
+                    type="submit"
+                    style="width: 100%; margin-top: 15px"
+                  >
+                    Submit Franchise Application
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </form>
+              </div>
+
+              <!-- ==================== 3. VENDOR APPLICATION VIEW ==================== -->
+              <div class="portal-view" id="viewVendor">
+                <div
+                  style="
+                    margin-bottom: 24px;
+                    border-bottom: 1px solid var(--line);
+                    padding-bottom: 14px;
+                  "
+                >
+                  <h3 style="font-size: 1.5rem; color: var(--navy)">
+                    <i
+                      class="fa-solid fa-truck-ramp-box"
+                      style="color: var(--orange)"
+                    ></i>
+                    Vendor Registration Application Form
+                  </h3>
+                  <p style="color: var(--muted); font-size: 0.9rem">
+                    Register your business with OnTheWay Logistics. Fields
+                    marked * are required.
+                  </p>
+                </div>
+
+                <form
+                  id="vendorForm"
+                  onsubmit="handlePortalSubmit(event, 'Vendor')"
+                  autocomplete="off"
+                >
+                  <div class="form-grid">
+                    <div class="form-group col-span-1">
+                      <label for="vt_name">Full Name *</label>
+                      <input
+                        type="text"
+                        id="vt_name"
+                        name="fullName"
+                        required
+                        placeholder="Enter your full name."
+                        autocomplete="name"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_dob">Date of Birth *</label>
+                      <input
+                        type="date"
+                        id="vt_dob"
+                        name="dateOfBirth"
+                        required
+                        title="Date of birth (DD/MM/YYYY)"
+                      />
+                      <small
+                        style="
+                          display: block;
+                          margin-top: 4px;
+                          font-size: 0.8rem;
+                          color: var(--muted, #6b7280);
+                        "
+                        >Format: DD/MM/YYYY</small
+                      >
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_email">Gmail / Email ID *</label>
+                      <input
+                        type="email"
+                        id="vt_email"
+                        name="gmail"
+                        required
+                        autocomplete="email"
+                        placeholder="example@gmail.com"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_mobile">Contact Number *</label>
+                      <input
+                        type="tel"
+                        id="vt_mobile"
+                        name="contactNumber"
+                        required
+                        inputmode="tel"
+                        autocomplete="tel"
+                        pattern="(\+?91[\s\-]?)?[6-9](?:[\s\-]?[0-9]){9}"
+                        title="Enter a 10-digit mobile number starting with 6-9"
+                        placeholder="+91 XXXXX XXXXX"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_whatsapp">WhatsApp Number *</label>
+                      <input
+                        type="tel"
+                        id="vt_whatsapp"
+                        name="whatsappNumber"
+                        required
+                        inputmode="tel"
+                        pattern="(\+?91[\s\-]?)?[6-9](?:[\s\-]?[0-9]){9}"
+                        title="Enter a 10-digit mobile number starting with 6-9"
+                        placeholder="+91 XXXXX XXXXX"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_state">State / Union Territory *</label>
+                      <input
+                        type="text"
+                        id="vt_state"
+                        name="state"
+                        required
+                        list="vt_state_list"
+                        autocomplete="off"
+                        placeholder="Type or select a state"
+                      />
+                      <datalist id="vt_state_list"></datalist>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_district">District *</label>
+                      <input
+                        type="text"
+                        id="vt_district"
+                        name="district"
+                        required
+                        list="vt_district_list"
+                        autocomplete="off"
+                        placeholder="Type or select a district"
+                      />
+                      <datalist id="vt_district_list"></datalist>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_city">Village Name / City Name *</label>
+                      <input
+                        type="text"
+                        id="vt_city"
+                        name="cityOrVillage"
+                        required
+                        list="vt_city_list"
+                        autocomplete="off"
+                        placeholder="Type village, town or city"
+                      />
+                      <datalist id="vt_city_list"></datalist>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_area">Location / Area Name *</label>
+                      <input
+                        type="text"
+                        id="vt_area"
+                        name="locationArea"
+                        required
+                        list="vt_area_list"
+                        autocomplete="off"
+                        placeholder="Select or type your area name"
+                      />
+                      <datalist id="vt_area_list"></datalist>
+                      <small
+                        style="
+                          display: block;
+                          margin-top: 4px;
+                          font-size: 0.8rem;
+                          color: var(--muted, #6b7280);
+                        "
+                        >Not in the list? Type your area name.</small
+                      >
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_pin">PIN Code *</label>
+                      <input
+                        type="text"
+                        id="vt_pin"
+                        name="pincode"
+                        required
+                        inputmode="numeric"
+                        maxlength="6"
+                        pattern="[1-9][0-9]{5}"
+                        title="Enter the 6-digit PIN code"
+                        autocomplete="postal-code"
+                        placeholder="6-digit PIN code"
+                      />
+                    </div>
+
+                    <div class="form-group col-span-2">
+                      <label for="vt_address">Full Address *</label>
+                      <textarea
+                        id="vt_address"
+                        name="address"
+                        required
+                        autocomplete="street-address"
+                        placeholder="Enter House No., Building Name, Street, Landmark and complete address."
+                      ></textarea>
+                    </div>
+
+                    <div class="form-group col-span-1">
+                      <label for="vt_years">Years of Experience *</label>
+                      <input
+                        type="number"
+                        id="vt_years"
+                        name="yearsOfExperience"
+                        required
+                        min="0"
+                        max="10"
+                        step="1"
+                        inputmode="numeric"
+                        placeholder="Enter the number of years"
+                      />
+                      <small id="vt_yearsError" style="color:#b42318;margin-top:4px;" role="alert" hidden></small>
+                    </div>
+                    <div class="form-group col-span-1">
+                      <label for="vt_applicantCategory">Applicant Category *</label>
+                      <input
+                        type="text"
+                        id="vt_applicantCategory"
+                        name="applicantCategory"
+                        value=""
+                        readonly
+                        aria-readonly="true"
+                        tabindex="-1"
+                        placeholder="Set automatically from experience"
+                        style="background:#eef2f7;cursor:not-allowed;"
+                      />
+                    </div>
+                    <div class="form-group col-span-1" id="vt_aadhaarWrap" hidden>
+                      <label for="vt_aadhaar">Aadhaar Card Upload * (PDF/JPG/PNG, max 5 MB)</label>
+                      <input id="vt_aadhaar" name="aadhaarCard" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" required />
+                    </div>
+                    <div class="form-group col-span-1" id="vt_salaryMonthsWrap" hidden>
+                      <label for="vt_salaryMonths">Salary Slip Period *</label>
+                      <select id="vt_salaryMonths" name="salarySlipMonths">
+                        <option value="">Select period</option><option value="3">Last 3 months</option><option value="6">Last 6 months</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-span-2" id="vt_salarySlipsWrap" hidden>
+                      <label for="vt_salarySlips">Salary Slips * (one file per month, PDF/JPG/PNG, max 5 MB each)</label>
+                      <input id="vt_salarySlips" name="salarySlips" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" multiple />
+                      <small>Upload exactly 3 or 6 monthly salary slip files, based on your selection.</small>
+                    </div>
+                  </div>
+
+                  <button
+                    class="btn btn-orange"
+                    type="submit"
+                    style="width: 100%; margin-top: 15px"
+                  >
+                    Submit Vendor Application
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOCATION & INTERACTIVE MAP -->
+      <section class="locations section" id="locations">
+        <div class="container location-grid">
+          <div class="location-copy">
+            <p class="eyebrow"><span></span> COME VISIT US</p>
+            <h2>Rooted in<br /><em>Anantapur.</em></h2>
+            <p>
+              Our headquarters and central operations hub are based right here
+              in Andhra Pradesh. Drop by or connect directly with our local
+              dispatch team.
+            </p>
+
+            <div class="loc-address">
+              <div class="loc-pin" aria-hidden="true">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="loc-address-text">
+                <strong>ON THE WAY LOGISTICS</strong>
+                <span>Srinagar Colony, Anantapur</span>
+                <span>Andhra Pradesh – 515001</span>
+              </div>
+            </div>
+
+            <div class="loc-links">
+              <a
+                class="loc-directions-link"
+                target="_blank"
+                rel="noopener"
+                href="https://maps.app.goo.gl/g2rMNmn3uvWL8wrb8?g_st=ac"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> How to
+                find us directions</a
+              >
+              <a
+                class="loc-maps-link"
+                target="_blank"
+                rel="noopener"
+                href="https://www.google.com/maps/search/?api=1&query=Ground+Floor,+Namburi+Enclave,+6-5-936,+Near+Saveera+Hospital,+Srinagar+Colony,+Anantapur,+Andhra+Pradesh+515001"
+                >Open in Google Maps App
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+
+            <a
+              class="route-app-btn"
+              target="_blank"
+              rel="noopener"
+              href="https://maps.app.goo.gl/g2rMNmn3uvWL8wrb8?g_st=ac"
+              ><i class="fa-solid fa-diamond-turn-right"></i> Route App</a
+            >
+          </div>
+
+          <!-- Google Map embed (business location) -->
+          <div class="map-container loc-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6029050966054!2d78.4335687749355!3d17.43083428346429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb14a93a37c9819%3A0x2e5bf656370b03ee!2sSaveera%20Hospital%20Private%20Limited!5e0!3m2!1sen!2sin!4v1794638669016!5m2!1sen!2sin"
+              width="970"
+              height="600"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="ft-wrap">
+        <div class="ft-grid">
+          <!-- Column 1: Company -->
+          <div class="ft-col ft-company">
+            <a
+              href="#home"
+              class="ft-logo"
+              aria-label="ON THE WAY LOGISTICS home"
+            >
+              <img src="assets/logo.png" alt="ON THE WAY LOGISTICS logo" />
+            </a>
+            <p class="ft-desc">
+              Reliable, efficient, and timely logistics and transportation
+              solutions built on a commitment to quality service and customer
+              satisfaction.
+            </p>
+            <p class="ft-tagline">DELIVERING TRUST. EVERY MILE.</p>
+          </div>
+
+          <!-- Column 2: Navigation -->
+          <div class="ft-col">
+            <h4 class="ft-heading">Navigation</h4>
+            <ul class="ft-links">
+              <li>
+                <a href="#home"
+                  ><i class="fa-solid fa-chevron-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="#about"
+                  ><i class="fa-solid fa-chevron-right"></i> About Us</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fa-solid fa-chevron-right"></i> Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#partner-portal"
+                  onclick="openPartnerApplication('franchise')"
+                  ><i class="fa-solid fa-chevron-right"></i> Franchise
+                  Application</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#partner-portal"
+                  onclick="openPartnerApplication('vendor')"
+                  ><i class="fa-solid fa-chevron-right"></i> Vendor
+                  Application</a
+                >
+              </li>
+              <li>
+                <a href="#partner-portal"
+                  ><i class="fa-solid fa-chevron-right"></i> Partner
+                  Application</a
+                >
+              </li>
+              <li>
+                <a href="#locations"
+                  ><i class="fa-solid fa-chevron-right"></i> Location &amp;
+                  Map</a
+                >
+              </li>
+              <li>
+                <a href="#ft-contact"
+                  ><i class="fa-solid fa-chevron-right"></i> Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="privacy-policy.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Contact -->
+          <div class="ft-col" id="ft-contact">
+            <h4 class="ft-heading">Contact Us</h4>
+            <ul class="ft-contact">
+              <li>
+                <i class="fa-solid fa-location-dot"></i
+                ><span
+                  >Srinagar Colony, Anantapur, Andhra Pradesh 515001,
+                  India.</span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i
+                ><a href="tel:+919390544628">+91 93905 44628</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><a href="mailto:onthewaynpr@gmail.com">onthewaynpr@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><a href="mailto:ontheway5579@gmail.com">ontheway5579@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i
+                ><span>Mon – Sat: 8:00 AM – 8:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Social -->
+          <div class="ft-col">
+            <h4 class="ft-heading">Follow Our Journey</h4>
+            <div class="ft-social">
+              <a
+                class="ft-social-card"
+                href="https://instagram.com/ontheway_logistics"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-instagram ft-ig"></i>
+                <span
+                  ><strong>Instagram</strong
+                  ><small>@ontheway_logistics</small></span
+                >
+              </a>
+              <a
+                class="ft-social-card"
+                href="https://facebook.com/ontheway_logistics"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-facebook-f ft-fb"></i>
+                <span
+                  ><strong>Facebook</strong
+                  ><small>@ontheway_logistics</small></span
+                >
+              </a>
+              <a
+                class="ft-social-card"
+                href="https://youtube.com/@ontheway-u7y"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-youtube ft-yt"></i>
+                <span
+                  ><strong>YouTube Channel</strong
+                  ><small>@ontheway-u7y</small></span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ft-divider"></div>
+
+        <div class="ft-copy">
+          <span class="ft-line"></span>
+          <p>© 2026 OnTheWay Logistics. All rights reserved.</p>
+          <span class="ft-line"></span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action -->
+    <a
+      class="whatsapp-btn"
+      href="https://wa.me/919390544628"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="partner-forms.js"></script>
+    <script src="india-districts.js"></script>
+    <script src="franchise-territory.js"></script>
+    <script>
+      // Responsive Navbar toggle
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+      menuToggle?.addEventListener("click", () => {
+        const open = navLinks.classList.toggle("open");
+        menuToggle.setAttribute("aria-expanded", String(open));
+      });
+      navLinks.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => {
+          navLinks.classList.remove("open");
+          menuToggle.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      // Replay the Home button's sequential animation on every click.
+      const homeNavButton = navLinks.querySelector(".nav-home");
+      homeNavButton?.addEventListener("click", () => {
+        homeNavButton.classList.remove("home-button-sequence");
+        void homeNavButton.offsetWidth;
+        homeNavButton.classList.add("home-button-sequence");
+        window.setTimeout(
+          () => homeNavButton.classList.remove("home-button-sequence"),
+          1500,
+        );
+      });
+
+      // ==================== PARTNER APPLICATION TAB SWITCHING ====================
+      function selectRoleTab(role) {
+        const tabFranchise = document.getElementById("tabRoleFranchise");
+        const tabVendor = document.getElementById("tabRoleVendor");
+        const viewFranchise = document.getElementById("viewFranchise");
+        const viewVendor = document.getElementById("viewVendor");
+        const notification = document.getElementById("statusNotification");
+        if (notification) notification.style.display = "none";
+        [tabFranchise, tabVendor].forEach(
+          (el) => el && el.classList.remove("active"),
+        );
+        [viewFranchise, viewVendor].forEach(
+          (el) => el && el.classList.remove("active"),
+        );
+        if (role === "vendor") {
+          tabVendor?.classList.add("active");
+          viewVendor?.classList.add("active");
+        } else {
+          tabFranchise?.classList.add("active");
+          viewFranchise?.classList.add("active");
+        }
+      }
+
+      // Join buttons and menu links: switch to the requested form and scroll it into view.
+      function openPartnerApplication(role) {
+        selectRoleTab(role === "vendor" ? "vendor" : "franchise");
+        const section = document.getElementById("partner-portal");
+        if (!section) return;
+        const reduce = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+        section.scrollIntoView({
+          behavior: reduce ? "auto" : "smooth",
+          block: "start",
+        });
+      }
+
+      // handlePortalSubmit (Franchise / Vendor form submit) lives in partner-forms.js,
+      // shared with services.html so both pages send applications to the admin panel.
+    </script>
+
+    <script>
+      // Scroll-triggered page-turn and staggered card animations; content is unchanged.
+      (() => {
+        const reduceMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+        const sections = [...document.querySelectorAll("main > section")];
+        const revealTargets = [];
+        sections.forEach((section, index) => {
+          if (section.id === "home") return;
+          const primary = section.querySelector(
+            ".container, .about-lead, .section-heading, .location-copy, .partner-copy",
+          );
+          if (primary) {
+            primary.classList.add("motion-reveal");
+            if (index % 2) primary.classList.add("flip-from-right");
+            revealTargets.push(primary);
+          }
+          const grids = section.querySelectorAll(
+            ".service-grid, .about-pillars-grid, .form-grid, .trust-strip .container",
+          );
+          grids.forEach((grid) => {
+            grid.classList.add("motion-stagger");
+            revealTargets.push(grid);
+          });
+          section
+            .querySelectorAll(
+              ".service-card, .about-pillar-card, .partner-form, .map-frame",
+            )
+            .forEach((card) => {
+              // Hover tilt is CSS-only; no text or functionality is altered.
+              card.classList.add("motion-card");
+            });
+        });
+        if (reduceMotion || !("IntersectionObserver" in window)) {
+          revealTargets.forEach((el) => el.classList.add("is-visible"));
+          return;
+        }
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -35px 0px" },
+        );
+        revealTargets.forEach((el) => observer.observe(el));
+      })();
+    </script>
+
+    <script>
+      // Replay the homepage entrance when visitors select Home.
+      (() => {
+        const homeLinks = document.querySelectorAll('a[href="#home"]');
+        const heroContent = document.querySelector(".company-hero-simple");
+        if (!heroContent) return;
+        const replayHome = (event) => {
+          // Let the native anchor keep its expected navigation behaviour.
+          heroContent.classList.remove("home-slide-in");
+          void heroContent.offsetWidth; // restart CSS animation
+          heroContent.classList.add("home-slide-in");
+        };
+        homeLinks.forEach((link) => link.addEventListener("click", replayHome));
+        // Animate on first page load as well.
+        window.addEventListener("DOMContentLoaded", () =>
+          heroContent.classList.add("home-slide-in"),
+        );
+        heroContent.classList.add("home-slide-in");
+      })();
+    </script>
+
+    <script>
+      // Services slide-in animation: heading, staggered cards and service approach panel.
+      (() => {
+        const services = document.getElementById("services");
+        if (!services) return;
+        const heading = services.querySelector(".section-heading");
+        const grid = services.querySelector(".service-grid");
+        const approach = services.querySelector(".services-approach");
+        const reduceMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+        const revealAll = () => {
+          heading?.classList.add("motion-heading-visible");
+          grid?.classList.add("is-visible");
+          approach?.classList.add("motion-approach-visible");
+        };
+        if (reduceMotion || !("IntersectionObserver" in window)) {
+          revealAll();
+          return;
+        }
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              if (entry.target === heading)
+                heading.classList.add("motion-heading-visible");
+              if (entry.target === grid) grid.classList.add("is-visible");
+              if (entry.target === approach)
+                approach.classList.add("motion-approach-visible");
+              observer.unobserve(entry.target);
+            });
+          },
+          { threshold: 0.14, rootMargin: "0px 0px -30px 0px" },
+        );
+        [heading, grid, approach]
+          .filter(Boolean)
+          .forEach((el) => observer.observe(el));
+      })();
+    </script>
+    <div class="page-transition-frame" aria-hidden="true"></div>
+    <script>
+      (function () {
+        const frame = document.querySelector(".page-transition-frame");
+        if (!frame) return;
+        document.querySelectorAll("a[href='services.html']").forEach((a) =>
+          a.addEventListener("click", (e) => {
+            if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+            e.preventDefault();
+            frame.classList.remove("frame-out");
+            void frame.offsetWidth;
+            frame.classList.add("frame-out");
+            const url = a.href;
+            setTimeout(() => (location.href = url), 520);
+          }),
+        );
+      })();
+    </script>
+    <script>
+      (function () {
+        const DATA_URL =
+          "https://raw.githubusercontent.com/sab99r/Indian-States-And-Districts/master/states-and-districts.json";
+        let stateDistrictData = null;
+        function setOptions(el, items, placeholder) {
+          el.innerHTML = "";
+          const first = document.createElement("option");
+          first.value = "";
+          first.textContent = placeholder;
+          el.appendChild(first);
+          items.forEach((x) => {
+            const o = document.createElement("option");
+            o.value = x.value;
+            o.textContent = x.label;
+            el.appendChild(o);
+          });
+        }
+        async function loadStateDistricts() {
+          if (stateDistrictData) return stateDistrictData;
+          const r = await fetch(DATA_URL, { cache: "force-cache" });
+          if (!r.ok) throw new Error("Could not load state/district list");
+          const j = await r.json();
+          const list = Array.isArray(j.states)
+            ? j.states
+            : Array.isArray(j)
+              ? j
+              : [];
+          stateDistrictData = list
+            .map((x) => ({
+              name: x.state || x.name,
+              districts: x.districts || [],
+            }))
+            .filter((x) => x.name);
+          if (!stateDistrictData.length)
+            throw new Error("State/district list format not recognized");
+          return stateDistrictData;
+        }
+        // State and district come from the list above. If it cannot be loaded (offline), the form still works:
+        // State shows Andhra Pradesh and District keeps the built-in district list.
+        async function init(prefix) {
+          const state = document.getElementById(prefix + "_state"),
+            district = document.getElementById(prefix + "_district");
+          if (!state || !district) return;
+          let data = [];
+          try {
+            data = await loadStateDistricts();
+          } catch (e) {
+            data = [];
+          }
+          if (!data.length) {
+            setOptions(
+              state,
+              [{ value: "Andhra Pradesh", label: "Andhra Pradesh" }],
+              "Select state",
+            );
+            state.value = "Andhra Pradesh";
+            state.disabled = false;
+            return;
+          }
+          const stateItems = data
+            .map((x) => ({ value: x.name, label: x.name }))
+            .sort((a, b) => a.label.localeCompare(b.label));
+          setOptions(state, stateItems, "Select state");
+          state.value = stateItems.some((x) => x.value === "Andhra Pradesh")
+            ? "Andhra Pradesh"
+            : "";
+          state.disabled = false;
+          function fillDistricts() {
+            const item = data.find((x) => x.name === state.value);
+            const ds = (item ? item.districts : [])
+              .map((d) =>
+                typeof d === "string" ? d : d.name || d.district || "",
+              )
+              .filter(Boolean)
+              .map((n) => ({ value: n, label: n }))
+              .sort((a, b) => a.label.localeCompare(b.label));
+            if (ds.length) {
+              setOptions(district, ds, "Select district");
+            } else {
+              setOptions(district, [], "Select district");
+            }
+            district.disabled = false;
+          }
+          state.addEventListener("change", fillDistricts);
+          fillDistricts();
+        }
+        document.addEventListener("DOMContentLoaded", () =>
+          ["f", "v"].forEach(init),
+        );
+      })();
+    </script>
+    <script>
+      (function () {
+        const hero = document.querySelector(".company-hero");
+        if (
+          !hero ||
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        )
+          return;
+        hero.addEventListener("pointermove", (e) => {
+          const r = hero.getBoundingClientRect();
+          hero.style.setProperty(
+            "--px",
+            ((e.clientX - r.left) / r.width - 0.5).toFixed(3),
+          );
+          hero.style.setProperty(
+            "--py",
+            ((e.clientY - r.top) / r.height - 0.5).toFixed(3),
+          );
+        });
+        hero.addEventListener("pointerleave", () => {
+          hero.style.setProperty("--px", 0);
+          hero.style.setProperty("--py", 0);
+        });
+        window.addEventListener(
+          "scroll",
+          () => {
+            hero.style.setProperty(
+              "--sy",
+              Math.min(window.scrollY, hero.offsetHeight),
+            );
+          },
+          { passive: true },
+        );
+      })();
+    </script>
+
+    <script>
+      (function () {
+        var v = document.querySelector(".partner-viewport");
+        if (!v) return;
+        var t;
+        function hold() {
+          v.classList.add("is-held");
+        }
+        function release() {
+          clearTimeout(t);
+          t = setTimeout(function () {
+            v.classList.remove("is-held");
+          }, 2500);
+        }
+        v.addEventListener("touchstart", hold, { passive: true });
+        v.addEventListener("touchend", release);
+        v.addEventListener("touchcancel", release);
+        v.addEventListener("focus", hold);
+        v.addEventListener("blur", release);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,912 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="assets/ontheway-logistics-logo.jpg" type="image/jpeg" />
+    <title>ON THE WAY LOGISTICS | Vendor Management Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loginPage" class="login-wrap">
+      <div class="login-card">
+        <img
+          class="login-logo"
+          src="assets/ontheway-logistics-logo.jpg"
+          alt="On The Way Logistics logo"
+        />
+        <h1>Vendor Management Portal</h1>
+        <p class="muted">ON THE WAY LOGISTICS</p>
+        <h2 class="login-welcome">Welcome to the Vendor Management Portal</h2>
+        <form id="loginForm">
+          <label>Vendor ID / Email</label>
+          <input
+            id="loginId"
+            type="text"
+            autocomplete="username"
+            placeholder="e.g. VN-000001 or your email"
+            required
+          />
+          <label>Password</label>
+          <div class="password-box">
+            <input
+              id="password"
+              type="password"
+              autocomplete="current-password"
+              placeholder="Enter password"
+              required
+            />
+            <button type="button" id="showPass">Show</button>
+          </div>
+          <button class="primary full" type="submit">Sign In</button>
+        </form>
+        <p id="loginError" class="login-error" role="alert"></p>
+        <p class="demo">
+          Sign in with the Vendor ID (like VN-000001) or email and the password
+          you received when your application was accepted. Forgot your password?
+          Contact On The Way Logistics to reset it.
+        </p>
+      </div>
+    </div>
+    <div id="app" class="app hidden">
+      <aside class="sidebar">
+        <div class="logo">
+          <img
+            src="assets/ontheway-logistics-logo.jpg"
+            alt="On The Way Logistics logo"
+          />
+        </div>
+        <div class="vendor-mini">
+          <button
+            class="avatar avatar-trigger"
+            type="button"
+            aria-label="Capture profile selfie"
+            title="Capture profile selfie"
+          >
+            V
+          </button>
+          <div>
+            <b id="sideName">Vendor Partner</b><small id="sideId"></small
+            ><small class="portal-tag">Vendor Portal</small>
+          </div>
+        </div>
+        <nav>
+          <button class="nav active" data-page="dashboard">
+            ⌂ <span>Dashboard</span></button
+          ><button class="nav" data-page="profile">
+            ◉ <span>Vendor Profile</span></button
+          ><button class="nav" data-page="locations">
+            ⌖ <span>My Locations</span></button
+          ><button class="nav" data-page="orders">▣ <span>Orders</span></button
+          ><button class="nav" data-page="riderApps">
+            ▤ <span>Rider Applications</span></button
+          ><button class="nav" data-page="reports">
+            ▥ <span>Reports</span></button
+          ><button class="nav" data-page="notifications">
+            ● <span>Notifications</span></button
+          ><button class="nav" data-page="settings">
+            ⚙ <span>Settings</span>
+          </button>
+        </nav>
+        <button id="logout" class="logout">↪ Logout</button>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <button id="menu" class="menu">☰</button>
+          <div>
+            <h2 id="pageTitle">Dashboard</h2>
+            <span class="muted"
+              >Vendor Management Portal · On The Way Logistics</span
+            >
+          </div>
+          <div class="top-user">
+            <button
+              class="avatar avatar-trigger"
+              type="button"
+              aria-label="Capture profile selfie"
+              title="Capture profile selfie"
+            >
+              V
+            </button>
+            <div>
+              <b id="topName">Vendor Partner</b><small id="topId"></small
+              ><small class="portal-tag top-portal-tag">Vendor Portal</small>
+            </div>
+          </div>
+        </header>
+        <section id="dashboard" class="page">
+          <div class="dashboard-brand-strip">
+            <img
+              src="assets/ontheway-logistics-logo.jpg"
+              alt="On The Way Logistics"
+            />
+          </div>
+          <div class="vendor-portal-title">
+            <span>ON THE WAY LOGISTICS</span
+            ><strong>VENDOR MANAGEMENT PORTAL</strong>
+          </div>
+          <div class="welcome">
+            <div>
+              <span class="eyebrow">WELCOME BACK TO</span>
+              <h1>On The Way Logistics</h1>
+              <p>Manage your vendor profile, locations and orders.</p>
+            </div>
+            <div class="vendor-badge">
+              <span>VENDOR ID</span><b id="badgeId"></b>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="stat">
+              <span>Total Locations</span><strong id="statLocations">0</strong
+              ><i>⌖</i>
+            </div>
+            <div class="stat">
+              <span>Active Locations</span><strong id="statActive">0</strong
+              ><i>✓</i>
+            </div>
+            <div class="stat">
+              <span>Total Orders</span><strong id="statOrders">0</strong
+              ><i>▤</i>
+            </div>
+          </div>
+          <div class="grid2">
+            <div class="panel">
+              <div class="panel-head">
+                <h3>My Vendor Locations</h3>
+                <button class="link" data-page-jump="locations">
+                  View all
+                </button>
+              </div>
+              <div id="recentLocations"></div>
+            </div>
+            <div class="panel">
+              <div class="panel-head"><h3>Quick Actions</h3></div>
+              <div class="quick">
+                <button data-open-location-add>＋ Add Location</button
+                ><button data-page-jump="profile">◉ Edit Profile</button
+                ><button data-page-jump="reports">▥ View Reports</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="profile" class="page hidden">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Vendor Profile</h3>
+              <span class="status approved">Approved</span>
+            </div>
+            <div class="form-grid">
+              <label>Vendor ID<input id="pId" disabled /></label
+              ><label>Vendor Name<input id="pName" required /></label
+              ><label>Owner / Contact Name<input id="pContact" /></label
+              ><label>Phone Number<input id="pPhone" /></label
+              ><label>Email Address<input id="pEmail" type="email" /></label
+              ><label>State<input id="pState" /></label
+              ><label>District<input id="pDistrict" /></label
+              ><label>City / Town<input id="pCity" /></label
+              ><label>PIN Code<input id="pPin" /></label
+              ><label>Office Space<input id="pOffice" /></label
+              ><label class="wide"
+                >Complete Address<textarea id="pAddress"></textarea></label
+              ><label class="wide"
+                >Business Remarks<textarea
+                  id="pRemarks"
+                  placeholder="Experience, service area or other notes"
+                ></textarea>
+              </label>
+            </div>
+            <div class="profile-actions">
+              <button id="saveProfile" class="secondary" type="button">
+                Save Changes</button
+              ><button id="submitProfile" class="primary" type="button">
+                Submit
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="locations" class="page hidden" data-location-role="Vendor">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>My Vendor Locations</h3>
+              <button id="addLocation" class="primary" type="button">＋ Add Location</button>
+            </div>
+            <p class="muted">Submit each location for approval. When the Admin approves it, its status here changes to Active.</p>
+            <div class="toolbar">
+              <input
+                id="locationSearch"
+                placeholder="Search location ID, name, city, district, area or PIN..."
+              />
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Location ID</th>
+                    <th>Location Name</th>
+                    <th>City / Town</th>
+                    <th>District</th>
+                    <th>Area</th>
+                    <th>PIN Code</th>
+                    <th>Location URL</th>
+                    <th>Application Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="locationTable"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <section id="riders" class="page hidden">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Rider Management</h3>
+              <div class="head-actions">
+                <button id="rrOpenFromRiders" class="secondary" type="button">
+                  ＋ Add New Member</button
+                ><button id="addRider" class="primary" type="button">
+                  ＋ Add Rider
+                </button>
+              </div>
+            </div>
+            <p class="muted">
+              Manage riders: Rider ID / Partner ID, name, mobile number, hub and
+              documents (screenshot, Aadhaar).
+            </p>
+            <div class="toolbar search-row">
+              <input
+                id="riderSearch"
+                placeholder="Search rider ID, name, mobile, hub..."
+              /><button
+                class="secondary refresh-btn"
+                data-refresh
+                type="button"
+                title="Load the latest data from the server"
+              >
+                ↻ Refresh</button
+              ><span class="last-sync" data-last-sync></span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Rider ID / Partner ID</th>
+                    <th>Rider Name</th>
+                    <th>Mobile Number</th>
+                    <th>Hub Pincode</th>
+                    <th>Hub Location</th>
+                    <th>Documents</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="riderTable"></tbody>
+              </table>
+            </div>
+            <div class="notice">
+              <b>Rider records</b
+              ><span
+                >Rider details and documents are saved to your account on the
+                server, so they appear on all your devices. Uploaded documents
+                can only be opened by you. Press Refresh to load changes made
+                elsewhere (the list also updates by itself every minute).</span
+              >
+            </div>
+          </div>
+        </section>
+        <section id="riderApps" class="page hidden">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h3>Rider Applications</h3>
+                <span class="muted"
+                  >Riders you register. Each one starts as PENDING until it is
+                  approved or rejected.</span
+                >
+              </div>
+              <div class="head-actions">
+                <button id="rrAdd" class="primary" type="button">
+                  ＋ Add New Member
+                </button>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="stat">
+                <span>Total</span><strong id="rrTotal">0</strong><i>▤</i>
+              </div>
+              <div class="stat">
+                <span>Pending</span><strong id="rrPending">0</strong><i>…</i>
+              </div>
+              <div class="stat">
+                <span>Approved</span><strong id="rrApproved">0</strong><i>✓</i>
+              </div>
+              <div class="stat">
+                <span>Rejected</span><strong id="rrRejected">0</strong><i>✕</i>
+              </div>
+            </div>
+            <div class="rr-filters">
+              <input
+                id="rrFilterId"
+                placeholder="Filter by Rider ID"
+                autocomplete="off"
+              /><input
+                id="rrFilterName"
+                placeholder="Filter by rider name"
+                autocomplete="off"
+              /><input
+                id="rrFilterHub"
+                placeholder="Filter by hub location"
+                autocomplete="off"
+              /><button
+                class="secondary refresh-btn"
+                data-rr-refresh
+                type="button"
+              >
+                ↻ Refresh
+              </button>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Rider ID</th>
+                    <th>Rider Name</th>
+                    <th>Mobile Number</th>
+                    <th>Hub Pincode</th>
+                    <th>Hub Location</th>
+                    <th>Selfie</th>
+                    <th>Aadhaar</th>
+                    <th>Applied On</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="rrRows"></tbody>
+              </table>
+            </div>
+            <p id="rrEmpty" class="muted hidden"></p>
+            <div class="notice">
+              <b>Approval</b
+              ><span
+                >You can approve or reject only the riders you registered: click
+                a rider row to open its details and decide there. Decisions and
+                remarks are saved on the server and shown to On The Way
+                Logistics.</span
+              >
+            </div>
+          </div>
+        </section>
+
+        <section id="orders" class="page hidden">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h3>Weekly Payments — Excel Automatic</h3>
+                <span class="muted"
+                  >Everything here is read from the imported Excel sheet and
+                  saved on the server, so it stays after you refresh. Total
+                  Amount is the amount column of the sheet.</span
+                >
+              </div>
+              <button
+                id="weeklyPaymentsRefresh"
+                class="secondary refresh-btn"
+                type="button"
+              >
+                ↻ Refresh
+              </button>
+            </div>
+            <div class="toolbar search-row">
+              <select id="weeklyPaymentCycle" aria-label="Weekly cycle">
+                <option value="all">All Cycles</option></select
+              ><input
+                id="weeklyPaymentSearch"
+                type="search"
+                placeholder="Search rider name, rider ID, week or cycle..."
+                aria-label="Search weekly payments"
+              /><span id="weeklyPaymentSync" class="last-sync"></span>
+            </div>
+            <div class="orders-table-wrap">
+              <table class="orders-table">
+                <thead>
+                  <tr>
+                    <th>S.No.</th>
+                    <th>Rider ID</th>
+                    <th>Rider Name</th>
+                    <th>Week</th>
+                    <th>Days</th>
+                    <th>Total Orders</th>
+                    <th>LM Orders</th>
+                    <th>Prime Orders</th>
+                    <th>Club Orders</th>
+                    <th>SDD Orders</th>
+                    <th>LM Amount</th>
+                    <th>Prime Amount</th>
+                    <th>Club Amount</th>
+                    <th>SDD Amount</th>
+                    <th>Total Amount</th>
+                  </tr>
+                </thead>
+                <tbody id="vendorWeeklyPaymentRows">
+                  <tr>
+                    <td colspan="15">Loading weekly payments…</td>
+                  </tr>
+                </tbody>
+                <tfoot id="vendorWeeklyPaymentTotal"></tfoot>
+              </table>
+            </div>
+            <div id="vendorWeeklyPagination" class="weekly-pagination"></div>
+          </div>
+        </section>
+        <section id="reports" class="page hidden">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Rider & Order Reports</h3>
+              <span class="muted"
+                >Weekly totals and 15-Day Performance Report</span
+              >
+            </div>
+            <div class="report-grid rider-report-cards">
+              <div>
+                <b>Total Registered Riders</b
+                ><strong id="reportRiders">0</strong>
+              </div>
+              <div>
+                <b>Riders with Orders</b
+                ><strong id="reportActiveRiders">0</strong>
+              </div>
+              <div><b>Locations</b><strong id="reportLocations">0</strong></div>
+              <div>
+                <b>All-Time Total Orders</b><strong id="reportOrders">0</strong>
+              </div>
+            </div>
+          </div>
+          <div class="panel report-panel">
+            <div class="panel-head">
+              <h3>Weekly Order Summary</h3>
+              <span class="report-week-wrap"
+                ><select
+                  id="reportWeek"
+                  class="report-week-select"
+                  aria-label="Choose a weekly period"
+                ></select
+                ><span id="weeklyPeriod" class="period-label"
+                  >Latest available week</span
+                ></span
+              >
+            </div>
+            <div class="report-grid">
+              <div>
+                <b>Weekly Total Orders</b><strong id="weeklyTotal">0</strong>
+              </div>
+              <div>
+                <b>Primary Orders</b><strong id="weeklyPrimary">0</strong>
+              </div>
+              <div><b>Club Orders</b><strong id="weeklyClub">0</strong></div>
+              <div><b>Large Orders</b><strong id="weeklyLarge">0</strong></div>
+            </div>
+            <h4 class="chart-heading">Weekly order mix</h4>
+            <div
+              id="weeklyChart"
+              class="report-bars"
+              role="img"
+              aria-label="Weekly primary, club and large order comparison"
+            ></div>
+          </div>
+          <div class="panel report-panel">
+            <div class="panel-head">
+              <h3>15-Day Performance Report</h3>
+              <span id="cyclePeriod" class="period-label"
+                >Latest available 15-Day Performance Report</span
+              >
+            </div>
+            <div class="report-grid">
+              <div>
+                <b>15-Day Total Orders</b><strong id="cycleTotal">0</strong>
+              </div>
+              <div>
+                <b>Primary Orders</b><strong id="cyclePrimary">0</strong>
+              </div>
+              <div><b>Club Orders</b><strong id="cycleClub">0</strong></div>
+              <div><b>Large Orders</b><strong id="cycleLarge">0</strong></div>
+            </div>
+            <h4 class="chart-heading">15-day period trend</h4>
+            <div
+              id="cycleChart"
+              class="cycle-chart"
+              role="img"
+              aria-label="Primary, club and large orders for each 15-day period"
+            ></div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>15-day period</th>
+                    <th>Riders</th>
+                    <th>Primary</th>
+                    <th>Club</th>
+                    <th>Large</th>
+                    <th>SDD</th>
+                    <th>Total Orders</th>
+                  </tr>
+                </thead>
+                <tbody id="cycleTable"></tbody>
+                <tfoot id="cycleTotals"></tfoot>
+              </table>
+            </div>
+            <div class="notice">
+              <b>Report calculation</b
+              ><span
+                >These figures come from the same saved weekly payment rows as
+                the Orders page, for your approved riders only. Riders are
+                counted by unique Rider ID and each rider-week is counted once.
+                Total Orders is the Excel value; Primary is Prime Orders, Large
+                is LM Orders.</span
+              >
+            </div>
+          </div>
+        </section>
+        <section id="notifications" class="page hidden">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h3>Notifications</h3>
+                <span class="muted"
+                  >Updates from On The Way Logistics, such as new payment data
+                  for your riders.</span
+                >
+              </div>
+              <div class="head-actions">
+                <button
+                  id="markAllRead"
+                  class="secondary refresh-btn"
+                  type="button"
+                >
+                  ✓ Mark all as read
+                </button>
+              </div>
+            </div>
+            <div id="notificationList">
+              <div class="notice"><b>Loading…</b></div>
+            </div>
+            <div class="notice">
+              <b>Vendor account approved</b
+              ><span>Your vendor account is active and ready to manage.</span>
+            </div>
+          </div>
+        </section>
+        <section id="settings" class="page hidden">
+          <div class="panel">
+            <div class="panel-head"><h3>Settings</h3></div>
+            <div class="settings-row">
+              <div>
+                <b>Email notifications</b
+                ><span>Receive important portal updates.</span>
+              </div>
+              <input type="checkbox" checked />
+            </div>
+            <div class="settings-row">
+              <div>
+                <b>Location alerts</b
+                ><span>Receive updates about location records.</span>
+              </div>
+              <input type="checkbox" checked />
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-head"><h3>Account security</h3></div>
+            <div class="settings-row">
+              <div>
+                <b>Password</b
+                ><span
+                  >Change the password you use to sign in to the Vendor
+                  Portal.</span
+                >
+              </div>
+              <button id="changePwBtn" class="secondary" type="button">
+                Change password
+              </button>
+            </div>
+          </div>
+          <div class="panel support-panel">
+            <div class="panel-head">
+              <div>
+                <h3>Helpline / Support</h3>
+                <p class="muted">
+                  Tell our support team about an issue. Add a photo so we can
+                  understand the problem.
+                </p>
+              </div>
+            </div>
+            <form id="supportForm" class="support-form" novalidate>
+              <label
+                >Customer name *<input
+                  id="supportName"
+                  name="name"
+                  type="text"
+                  maxlength="120"
+                  autocomplete="name"
+                  required
+                  placeholder="Enter your full name" /></label
+              ><label
+                >Email address *<input
+                  id="supportEmail"
+                  name="email"
+                  type="email"
+                  maxlength="254"
+                  autocomplete="email"
+                  required
+                  placeholder="you@example.com" /></label
+              ><label
+                >Contact number (optional)<input
+                  id="supportPhone"
+                  name="phone"
+                  type="tel"
+                  maxlength="30"
+                  autocomplete="tel"
+                  placeholder="Phone number" /></label
+              ><label class="support-wide"
+                >Problem description *<textarea
+                  id="supportDescription"
+                  name="description"
+                  rows="4"
+                  maxlength="3000"
+                  required
+                  placeholder="Briefly describe the issue..."
+                ></textarea></label
+              ><label class="support-wide"
+                >Photo related to the problem *<input
+                  id="supportPhoto"
+                  name="photo"
+                  type="file"
+                  accept="image/*"
+                  capture="environment"
+                  required
+                /><small
+                  >Select a photo from your device or take a photo where
+                  supported.</small
+                ></label
+              >
+              <p
+                id="supportStatus"
+                class="support-status support-wide"
+                role="status"
+                aria-live="polite"
+              ></p>
+              <div class="support-wide">
+                <button id="supportSubmit" class="primary" type="submit">
+                  Submit Issue
+                </button>
+              </div>
+            </form>
+            <p class="support-destination">
+              Support email: <a id="supportAddress" href="mailto:supportontheway@gmail.com"><b>supportontheway@gmail.com</b></a>
+            </p>
+          </div>
+          <div class="panel support-panel" id="supportTrackerPanel">
+            <div id="supportTracker"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div
+      id="selfieModal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="selfieTitle"
+    >
+      <div class="modal-card selfie-card">
+        <div class="selfie-head">
+          <h3 id="selfieTitle">Profile Selfie</h3>
+          <button
+            id="selfieClose"
+            class="selfie-close"
+            type="button"
+            aria-label="Close camera"
+          >
+            ×
+          </button>
+        </div>
+        <label class="selfie-person-label" for="selfiePersonName"
+          >Person taking selfie<input
+            id="selfiePersonName"
+            type="text"
+            maxlength="100"
+            autocomplete="name"
+            placeholder="Enter full name"
+            required
+        /></label>
+        <div class="selfie-frame">
+          <video id="selfieVideo" autoplay playsinline muted></video
+          ><canvas
+            id="selfieCanvas"
+            class="hidden"
+            aria-label="Captured selfie"
+          ></canvas>
+          <p id="selfieFrameNote" class="selfie-frame-note"></p>
+        </div>
+        <p class="selfie-hint">
+          Keep your face inside the circle. The photo and name appear beside
+          both profile avatars.
+        </p>
+        <p id="selfieMessage" class="selfie-message" role="status"></p>
+        <div class="selfie-actions">
+          <button id="selfieCancel" class="secondary" type="button">
+            Cancel</button
+          ><button id="selfieRetake" class="secondary hidden" type="button">
+            ↺ Retake</button
+          ><button id="selfieCapture" class="primary" type="button" disabled>
+            📷 Capture</button
+          ><button id="selfieSave" class="primary hidden" type="button">
+            ✓ Save Selfie
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="riderModal" class="modal hidden">
+      <div class="modal-card rider-card">
+        <div class="panel-head">
+          <h3 id="riderModalTitle">Add Rider</h3>
+          <button id="closeRiderModal" type="button">×</button>
+        </div>
+        <form id="riderForm" novalidate>
+          <label
+            >Rider ID / Partner ID<input
+              id="rId"
+              required
+              maxlength="40"
+              autocomplete="off"
+              placeholder="e.g. 28274601"
+            /><small class="file-hint"
+              >Tip: choose the app screenshot below and this is filled in for
+              you.</small
+            ></label
+          ><label
+            >Rider Name<input
+              id="rName"
+              required
+              maxlength="100"
+              autocomplete="off"
+              placeholder="Enter rider full name" /></label
+          ><label
+            >Mobile Number<input
+              id="rPhone"
+              required
+              type="tel"
+              inputmode="numeric"
+              autocomplete="off"
+              placeholder="10-digit mobile number, e.g. 9876543210" /></label
+          ><label
+            >Hub Pincode<input
+              id="rHubPin"
+              required
+              inputmode="numeric"
+              maxlength="6"
+              autocomplete="off"
+              placeholder="e.g. 522002" /></label
+          ><label
+            >Hub Location<input
+              id="rHubLocation"
+              required
+              maxlength="120"
+              autocomplete="off"
+              placeholder="e.g. Guntur - Brodipet hub" /></label
+          ><label
+            >Screenshot<input
+              id="rScreenshot"
+              type="file"
+              accept="image/jpeg,image/png,image/webp" /><small
+              class="file-hint"
+              id="rScreenshotCurrent"
+            ></small
+            ><span
+              id="rShotStatus"
+              class="autofill-status"
+              role="status"
+            ></span></label
+          ><label
+            >Aadhaar<input
+              id="rAadhaar"
+              type="file"
+              accept="image/jpeg,image/png,image/webp,application/pdf" /><small
+              class="file-hint"
+              id="rAadhaarCurrent"
+            ></small
+          ></label>
+          <p id="riderFormError" class="field-error" role="alert"></p>
+          <input id="rOriginalId" type="hidden" /><button
+            class="primary full"
+            type="submit"
+          >
+            Save Rider
+          </button>
+        </form>
+      </div>
+    </div>
+    <div id="locationModal" class="modal hidden">
+      <div class="modal-card">
+        <div class="panel-head">
+          <h3 id="locationModalTitle">Add Vendor Location</h3>
+          <button id="closeLocationModal" type="button" aria-label="Close">×</button>
+        </div>
+        <form id="locationForm" novalidate>
+          <p id="locFormNote" class="muted" hidden></p>
+          <label>Location Name *<input id="locName" maxlength="120" autocomplete="off" placeholder="e.g. Anantapur Main Branch" /></label>
+          <p class="field-error" data-loc-err="name"></p>
+          <label>State *<select id="locState" autocomplete="off"><option value="">Select State / Union Territory</option><option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option><option value="Andhra Pradesh">Andhra Pradesh</option><option value="Arunachal Pradesh">Arunachal Pradesh</option><option value="Assam">Assam</option><option value="Bihar">Bihar</option><option value="Chandigarh">Chandigarh</option><option value="Chhattisgarh">Chhattisgarh</option><option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option><option value="Delhi">Delhi</option><option value="Goa">Goa</option><option value="Gujarat">Gujarat</option><option value="Haryana">Haryana</option><option value="Himachal Pradesh">Himachal Pradesh</option><option value="Jammu and Kashmir">Jammu and Kashmir</option><option value="Jharkhand">Jharkhand</option><option value="Karnataka">Karnataka</option><option value="Kerala">Kerala</option><option value="Ladakh">Ladakh</option><option value="Lakshadweep">Lakshadweep</option><option value="Madhya Pradesh">Madhya Pradesh</option><option value="Maharashtra">Maharashtra</option><option value="Manipur">Manipur</option><option value="Meghalaya">Meghalaya</option><option value="Mizoram">Mizoram</option><option value="Nagaland">Nagaland</option><option value="Odisha">Odisha</option><option value="Puducherry">Puducherry</option><option value="Punjab">Punjab</option><option value="Rajasthan">Rajasthan</option><option value="Sikkim">Sikkim</option><option value="Tamil Nadu">Tamil Nadu</option><option value="Telangana">Telangana</option><option value="Tripura">Tripura</option><option value="Uttar Pradesh">Uttar Pradesh</option><option value="Uttarakhand">Uttarakhand</option><option value="West Bengal">West Bengal</option></select></label>
+          <p class="field-error" data-loc-err="state"></p>
+          <label>City / Town *<input id="locCity" maxlength="80" autocomplete="off" /></label>
+          <p class="field-error" data-loc-err="city"></p>
+          <label>District *<input id="locDistrict" maxlength="80" autocomplete="off" /></label>
+          <p class="field-error" data-loc-err="district"></p>
+          <label>Area *<input id="locArea" maxlength="120" autocomplete="off" placeholder="e.g. Srinagar Colony" /></label>
+          <p class="field-error" data-loc-err="area"></p>
+          <label>PIN Code *<input id="locPin" maxlength="6" inputmode="numeric" autocomplete="off" placeholder="6 digits, e.g. 515001" /></label>
+          <p class="field-error" data-loc-err="pin"></p>
+          <label>Location URL <small class="muted">(optional, Google Maps link)</small><input id="locUrl" maxlength="500" autocomplete="off" placeholder="https://maps.app.goo.gl/..." /></label>
+          <p class="field-error" data-loc-err="url"></p>
+          <p id="locFormMsg" class="field-error" role="alert"></p>
+          <button id="saveLocation" class="primary full" type="submit">Save Location</button>
+          <button id="cancelLocation" class="link full" type="button">Cancel</button>
+        </form>
+      </div>
+    </div>
+    <div
+      id="pwModal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="pwTitle"
+    >
+      <div class="modal-card">
+        <div class="panel-head">
+          <h3 id="pwTitle">Choose your password</h3>
+          <button id="pwClose" type="button" aria-label="Close">×</button>
+        </div>
+        <p id="pwIntro" class="muted"></p>
+        <form id="pwForm">
+          <label id="pwCurrentWrap"
+            >Current password<input
+              id="pwCurrent"
+              type="password"
+              autocomplete="current-password" /></label
+          ><label
+            >New password<input
+              id="pwNew"
+              type="password"
+              required
+              minlength="8"
+              autocomplete="new-password" /></label
+          ><label
+            >Confirm new password<input
+              id="pwConfirm"
+              type="password"
+              required
+              minlength="8"
+              autocomplete="new-password"
+          /></label>
+          <p id="pwMessage" class="pw-message" role="alert"></p>
+          <button class="primary full" type="submit">Save password</button>
+        </form>
+      </div>
+    </div>
+    <div
+      id="rrModal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="rrModalTitle"
+    >
+      <div id="rrModalCard" class="modal-card rr-card">
+        <div class="panel-head">
+          <h3 id="rrModalTitle"></h3>
+          <button id="rrModalClose" type="button" aria-label="Close">×</button>
+        </div>
+        <div id="rrModalBody"></div>
+      </div>
+    </div>
+    <script src="support-tracker.js"></script>
+    <script src="app.js"></script>
+    <script src="partner-locations.js"></script>
+    <script src="rider-registrations.js"></script>
+  </body>
+</html>
